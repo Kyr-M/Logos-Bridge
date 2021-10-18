@@ -1,0 +1,88 @@
+
+.warpper{
+  display:flexbox;
+  flex-direction:row;
+  align-items:flex-start;
+}
+.tab{
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  padding:10px 20px;
+  margin:2px 2px;
+  background:#023047;
+  display:list-item;
+  color:#31D3C6;
+  border-radius:3px 3px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #023047;
+  text-transform: uppercase;
+  font-size: 14px;
+  column-gap: 100px;
+  row-gap: 100px;
+}
+
+.panels{
+  margin-top: 10px;
+  padding-bottom: 20px;
+  background:#023047;
+  text-transform: uppercase;
+  min-height:200px;
+  width:100%;
+  max-width:500px;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px; 
+}
+.panel{
+  width: 500px;
+	
+  display:none;
+  animation: fadein .8s;
+  
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.panel-right{
+  font-size:1.5em;
+  padding-top: -50px;
+  font-weight:bold;
+  color: #31D3C6;
+  width: 150px;
+	height: 50px;
+}
+.panel_toggle_auto_hightlight{
+  margin-bottom: -50px;
+  margin-left: 300px;
+  font-size:1.5em;
+  font-weight:bold;
+  color: #31D3C6;
+  width: 500px;
+	height: 50px;
+}
+.radio{
+  display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab{
+  background:#FB8500;
+  color:#023047;
+  font-style: bold;
+}
+
+

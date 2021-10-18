@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	
+	<link href="css/popup.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/toggle.css" media="screen" rel="stylesheet" type="text/css"> 
+	<link href="css/tabs_menu.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/toggle_auto_hightlight.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/fonts.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/word_spacing.css" media="screen" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<div class="warpper">
+	  <input class="radio" id="one" name="group" type="radio" checked>
+	  <input class="radio" id="two" name="group" type="radio">
+	  <input class="radio" id="three" name="group" type="radio">
+	  <input class="radio" id="four" name="group" type="radio">
+	  <input class="radio" id="five" name="group" type="radio">
+	  <div class="tabs">
+	  <label class="tab" id="one-tab" for="one">On/Off Highligh Or Add New Word</label>
+	  <label class="tab" id="two-tab" for="two">Word Space Modification</label>
+	  <label class="tab" id="three-tab" for="three">on/off highligh</label>
+	  <label class="tab" id="four-tab" for="four">on/off dyslexia font or choose font</label>
+		</div>
+	  <div class="panels">
+			<div class="panel" id="one-panel">
+					<span class="border1"></span>
+					<span class="border2"></span>
+					<span class="border3"></span>
+					<span class="handle">
+						<span class="handle-off"></span>
+						<span class="handle-on"></span>
+					</span>
+					<div class="panel_toggle_auto_hightlight">On/Off Hightlight</div>
+					<div class="panel-right">Add New Word</div>
+						<div style="text-align: left" >
+							<input type="text" id="hex">
+							<input type="color" id="color">
+						</div>
+						<div class="toggle-radio">
+							<input type="radio" name="rdo" id="yes" checked>
+							<input type="radio" name="rdo" id="no">
+							<div class="switch">
+							<label for="yes">ON</label>
+							<label for="no">OFF</label>
+							<span></span>
+							</div>
+						</div>
+					<main id="mainBlock">
+						<div class="button-block">
+							<form id="new-group-form">
+								<input id="new-group-color" type="text" pattern="[0-9a-fA-f]{6}" title="hex color code" />
+								<input id="add-button" class="button" type="submit" value="+" title="add group" />
+							</form>
+						</div>
+						<section>
+							<span class="toggle">
+								<input type="checkbox" class="pure-toggle-checkbox" hidden />
+								<label class="pure-toggle flip" for="pure-toggle-" id="toggle_button">
+									<div class="fontawesome-remove">OFF</div>
+									<div class="fontawesome-ok">ON</div>
+								</label>
+							</span>
+							<header class="color-header">C72E04</header>
+							<button class="remove-group-button button">x</button>
+							<textarea class="highlight-words" placeholder="(separated by a space)"></textarea>
+						</section>
+					</main>		
+			</div>
+				<div class="panel" id="two-panel">
+
+					<div class="wrapper">
+						<div class="msg">
+						  <span class="box"> Word Spacing </span>
+						  RANGE SLIDER
+						</div>
+						<custom-slider min="0" max="100" value="50"></custom-slider>
+					  </div>
+
+				</div>
+				<div class="panel" id="three-panel">
+					<div class="panel-title">on/off highligh</div>
+					<p>we can use this on the first tab.</p>	
+				</div>
+				<div class="panel" id="four-panel">
+					<link href='https://fonts.googleapis.com/css?family=Arial|Courier|Helvetica|Verdana|Times|Tahoma|Century Gothic|Trebuchet MS|Calibri|Open Sans' rel='stylesheet' type='text/css'>
+					<div id = "page">
+						<div id = "container">
+							<h1 style = "font-size: 50px; background: #023047; color:#31D3C6;">Font selector</h1>
+						<div id = "text">
+							<h1 id = "h1">Grumpy wizards make toxic brew for the evil Queen and Jack.</h1>
+							<h2 id = "h2">Grumpy wizards make toxic brew for the evil Queen and Jack.</h2>
+							<h3 id = "h3">Grumpy wizards make toxic brew for the evil Queen and Jack.</h3>
+							<h4 id = "h4">Grumpy wizards make toxic brew for the evil Queen and Jack.</h4>
+							<div id = "standard">Grumpy wizards make toxic brew for the evil Queen and Jack.</div><br>
+						</div>
+						<select id = 'select' onChange = "return fontChange();">
+						</select>
+						</div>
+					</div>
+
+				</div>
+		</div>
+	</div>
+</div>
+	<script src="js/word_spacing.js"></script>
+	<script src="js/fonts.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="js/hex_color_pick.js"></script>
+	
+</body>
+</html>
