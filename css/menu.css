@@ -1,0 +1,50 @@
+
+  .container {
+    width: 100%;
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text span {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    border-radius:3px 3px 0px 0px;
+    text-transform: uppercase;
+    position: relative;
+    color: #FB8500;
+    z-index: 5;
+  }
+  
+  .text span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:#023047;
+    z-index: -1;
+    box-shadow: 0 2px 2px #111;
+  }
+  
+  .text:hover span::before {
+    animation: fillBg 1s ease forwards;
+    animation-delay: calc(100ms * var(--i));
+  }
+  
+  @keyframes fillBg {
+    0% {
+      width: 0%;
+    }
+  
+    100% {
+      width: 100%;
+      transform: rotate(calc(15deg * var(--i)));
+    }
+  }

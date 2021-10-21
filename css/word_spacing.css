@@ -1,6 +1,7 @@
 .wrapper {
     top : 0 ;
     left: 0 ;
+    margin-bottom: 3.5rem ;
     display: flex ;
     align-items: center ;
     justify-content: center ;
@@ -9,7 +10,7 @@
 }
 .msg {
     color: #FFF ;
-    margin-bottom: 6.5rem ;
+    margin-bottom: 3.5rem ;
     text-align: center ;
     font-size: 2rem ;
     letter-spacing: 5px ;
@@ -28,5 +29,6 @@
 
 custom-slider {
     transform: scale(2);
+
 }
 

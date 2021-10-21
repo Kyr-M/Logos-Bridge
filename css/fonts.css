@@ -1,12 +1,39 @@
 
-select{
-	font-size: 30px;
-}
-#page{
-	height: 100vh;
-	width: 100vw;
-	position:sticky;
-	display: -webkit-flex;
-  display: flex;
-	text-align: left;
-}
+
+  #mySelect {
+  text-align:center;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100% ;
+  margin:2px 2px;
+  background:#023047;
+  display:table-column;
+  color:#31D3C6;
+  text-transform: uppercase;
+  font-size: 24px;
+  column-gap: 100px;
+  row-gap: 100px;
+  }
+  
+ 
+  #customText{
+	margin-top: 5px;
+	padding-bottom: 30px;
+ 	min-height:100px;
+  	max-width:500px;
+	background-color:#023047;
+	color:#31D3C6;
+	font-size:20px;
+	outline:aqua;
+	border:aqua;
+	margin:0;
+	padding:1em  0;
+	text-align:center;
+	text-decoration: none;
+	display:block;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	overflow-wrap: break-word;
+  	word-wrap: break-word;
+  
+  }

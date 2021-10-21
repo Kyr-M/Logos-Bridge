@@ -10,8 +10,19 @@
 	<link href="css/toggle_auto_hightlight.css" media="screen" rel="stylesheet" type="text/css">
 	<link href="css/fonts.css" media="screen" rel="stylesheet" type="text/css">
 	<link href="css/word_spacing.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/menu.css" media="screen" rel="stylesheet" type="text/css">
 
 </head>
+<header>
+	<div class="container">
+		<div class="text">
+		  <span style="--i:-4">M</span>
+		  <span style="--i:-3">e</span>
+		  <span style="--i:-4">n</span>
+		  <span style="--i:-1">u</span>
+		</div>
+	  </div>
+</header>
 <body>
 	<div class="warpper">
 	  <input class="radio" id="one" name="group" type="radio" checked>
@@ -71,11 +82,17 @@
 					</main>		
 			</div>
 				<div class="panel" id="two-panel">
-
 					<div class="wrapper">
 						<div class="msg">
-						  <span class="box"> Word Spacing </span>
-						  RANGE SLIDER
+						  <span class="box"> Spacing SLIDERS </span>
+						  Word Spacing
+						</div>
+						<custom-slider min="0" max="100" value="50"></custom-slider>
+					  </div>
+
+					  <div class="wrapper">
+						<div class="msg">
+						  Letter Spacing
 						</div>
 						<custom-slider min="0" max="100" value="50"></custom-slider>
 					  </div>
@@ -86,22 +103,27 @@
 					<p>we can use this on the first tab.</p>	
 				</div>
 				<div class="panel" id="four-panel">
-					<link href='https://fonts.googleapis.com/css?family=Arial|Courier|Helvetica|Verdana|Times|Tahoma|Century Gothic|Trebuchet MS|Calibri|Open Sans' rel='stylesheet' type='text/css'>
-					<div id = "page">
-						<div id = "container">
-							<h1 style = "font-size: 50px; background: #023047; color:#31D3C6;">Font selector</h1>
-						<div id = "text">
-							<h1 id = "h1">Grumpy wizards make toxic brew for the evil Queen and Jack.</h1>
-							<h2 id = "h2">Grumpy wizards make toxic brew for the evil Queen and Jack.</h2>
-							<h3 id = "h3">Grumpy wizards make toxic brew for the evil Queen and Jack.</h3>
-							<h4 id = "h4">Grumpy wizards make toxic brew for the evil Queen and Jack.</h4>
-							<div id = "standard">Grumpy wizards make toxic brew for the evil Queen and Jack.</div><br>
-						</div>
-						<select id = 'select' onChange = "return fontChange();">
-						</select>
-						</div>
+					<div class="msg" >
+						<span class="box" style=" margin-bottom: 1.5rem ;"> FONT SELECTOR </span>
+					<header onload="selectFont()">  
+						<select id="mySelect" onchange="selectFont()">
+						  <option value="Arial">Arial</option>
+						  <option value="Courier">Courier</option>
+						  <option value="Helvetica">Helvetica</option>
+						  <option value="Verdana">Verdana</option>
+						  <option value="Times">Times</option>
+						  <option value="Tahoma">Tahoma</option>
+						  <option value="Century Gothic">Century Gothic</option>
+						  <option value="Trebuchet MS">Trebuchet MS</option>
+						  <option value="Calibri">Calibri</option>
+						  <option value="Open Sans">Open Sans</option>	 
+						 </select>
+					  </header>
+					  <div class="msg" style="margin-top: 30px;">
+						Font examples
+					  </div>
+						<h1 id = "customText" style="margin-top: 50px;">The quick brown fox jumps over the lazy dog...</h1>
 					</div>
-
 				</div>
 		</div>
 	</div>
