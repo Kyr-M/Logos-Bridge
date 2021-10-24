@@ -181,9 +181,93 @@ class customSlider extends HTMLElement {
         let valuePercentage = slider.value / (this.max-this.min) ;
         value.innerText = slider.value ;
         track.style.setProperty("--value",valuePercentage);
+        var value_sent = parseInt(value.innerText)
+        function send_spacing_value(){
+		    chrome.storage.sync.set({spacing_value: value_sent}, function() {
+			console.log('Value is set to ' + value_sent);
+		    });
+	    }
+        send_spacing_value();
+    }
+}
+
+class customSlider2 extends HTMLElement {
+    constructor(){
+        super();
+        this.value = parseFloat(this.getAttribute("value")) || 0;
+        this.min   = parseFloat(this.getAttribute("min"))   || 0;
+        this.max   = parseFloat(this.getAttribute("max"))   || 100;
+        this.step  = parseFloat(this.getAttribute("step"))  || 1;
+
+        this.style.minWidth = "12rem" ;
+        this.style.minHeight = "1rem" ;
+        this.style.position = "relative" ;
+
+        // Slider Element
+        this.root = this.attachShadow({mode:"open"}) ;
+
+        // Functionality
+        this.dragging = false ;
+
+        this.create();
+        this.update();
+    }
+
+    create(){
+        let slider   = document.createElement("input") ;
+        let sliderContainer = document.createElement("div");
+        let sliderTrack = document.createElement("div");
+        let value = document.createElement("div");
+
+        // let style = document.createElement("link");
+        // style.rel = "stylesheet" ;
+        // style.href = "/src/custom-slider-style.css" ;
+
+        let style = document.createElement("style") ;
+        style.innerHTML = stylesheetText ;
+
+        // set properties
+        slider.type = "range" ;
+        slider.id = "slider" ;
+        slider.min = this.min ;
+        slider.max = this.max ;
+        slider.step = this.step ;
+        slider.value = this.value ;
+
+        // add ids
+        sliderContainer.id = "slider-container" ;
+        sliderTrack.id = "slider-track" ;
+        value.id = "value" ;
+
+        // add event listeners
+        slider.addEventListener("input",this.update.bind(this));
+
+        // Appened Elements
+        sliderContainer.appendChild(slider);
+        sliderContainer.appendChild(value);
+        sliderContainer.appendChild(sliderTrack);
+        this.root.appendChild(style);
+        this.root.appendChild(sliderContainer);
+    }
+
+    update(){
+        let track  = this.root.getElementById("slider-container");
+        let slider = this.root.getElementById("slider");
+        let value = this.root.getElementById("value");
+        let valuePercentage = slider.value / (this.max-this.min) ;
+        value.innerText = slider.value ;
+        track.style.setProperty("--value",valuePercentage);
+        var value_sent = parseInt(value.innerText)
+        function send_spacing_value(){
+		    chrome.storage.sync.set({letter_value: value_sent}, function() {
+			console.log('Value is set to ' + value_sent);
+		    });
+	    }
+        send_spacing_value();
     }
 
 
 }
 
 customElements.define('custom-slider', customSlider );
+customElements.define('custom-slider2', customSlider2 );

@@ -6,31 +6,24 @@
 	/*|                          MENU management                       |*/
 	/*|================================================================|*/
 	
-	//highlight world list on/off button
-	click_state = false
-	function click_button(){
-			//chrome.tabs.reload(tab.id, { bypassCache }, null);
-			
-			if (click_state == false){
-				click_state = true
-				var currTab = chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
-					currTab = tabs[0];
-					if (currTab) { // Sanity check
-						console.log(currTab.id);
-						chrome.tabs.reload(currTab.id, null);
-					}
-					return currTab
-				  });
-			}
-			else{
-				click_state = false
-			}
-			chrome.storage.sync.set({click_state: click_state}, function() {
-				console.log('Value is set to ' + click_state);
-			});
-		}
-		
-	document.getElementById('three-tab').addEventListener("click",click_button);
+	//font selector
+	// var font_element = document.getElementById('mySelect');
+	// font_style = font_element.options[font_element.selectedIndex].value;
+	// console.log(font_style);
+
+	function send_font_value(){
+		font_style = ""
+		font_element = document.getElementById('mySelect');
+		font_style = font_element.options[font_element.selectedIndex].value;
+		chrome.storage.sync.set({font_selected: font_style}, function() {
+		console.log('Value is set to ' + font_style);
+		});
+	}
+
+	//document.getElementById("mySelect").addEventListener("click",send_font_value);
+	document.getElementById("mySelect").addEventListener("change",send_font_value);
+
+
 
 
 	
