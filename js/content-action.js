@@ -143,11 +143,12 @@
 			document.getElementsByTagName("body")[0].style.letterSpacing = String(spacing.letter_value)+"px";
 		})
 	});
-
+	
 	//font selection actions getting the value from the API
 	chrome.storage.onChanged.addListener(() => {
-		chrome.storage.sync.get(['font_style'], function(result) {
-			console.log(result.font_style);
+		chrome.storage.sync.get(['font_selected'], function(font_selected) {
+			console.log(font_selected.font_selected);
+			document.getElementsByTagName("body")[0].style.fontFamily = String(font_selected.font_selected);
 		})
 	});
 

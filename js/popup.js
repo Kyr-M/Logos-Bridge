@@ -15,11 +15,12 @@
 		font_style = ""
 		font_element = document.getElementById('mySelect');
 		font_style = font_element.options[font_element.selectedIndex].value;
-		chrome.storage.sync.set({font_selected: font_style}, function() {
-		console.log('Value is set to ' + font_style);
+		val = font_style
+		chrome.storage.sync.set({font_selected: val}, function() {
+		console.log('Value is set to ' + val);
 		});
 	}
-
+	send_font_value();
 	//document.getElementById("mySelect").addEventListener("click",send_font_value);
 	document.getElementById("mySelect").addEventListener("change",send_font_value);
 
