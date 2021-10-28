@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	
+	<link href="css/popup.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/toggle.css" media="screen" rel="stylesheet" type="text/css"> 
+	<link href="css/tabs_menu.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/toggle_auto_hightlight.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/toggle_on_off_dyslexic_font.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/fonts.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/word_spacing.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/menu_logo.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="css/font_size.css" media="screen" rel="stylesheet" type="text/css">
+
+</head>
+<header>
+<div class="container">
+		<div class="text">
+		  <span style="--i:-4">M</span>
+		  <span style="--i:-3">e</span>
+		  <span style="--i:-4">n</span>
+		  <span style="--i:-1">u</span>
+		</div>
+	  </div>
+</header>
+<body>
+	<div class="warpper">
+	  <input class="radio" id="one" name="group" type="radio" checked>
+	  <input class="radio" id="two" name="group" type="radio">
+	  <input class="radio" id="three" name="group" type="radio">
+
+
+	  <div class="tabs">
+	  <label class="tab" id="one-tab" for="one">Add New Word or On/Off Auto Highligh </label>
+	  <label class="tab" id="two-tab" for="two">Text Modification</label> 
+	  <label class="tab" id="three-tab" for="three">On/Off Greek Dyslexic Font Or Choose Font</label>
+		</div>
+	  <div class="panels">
+			<div class="panel" id="one-panel">
+					<span class="border1"></span>
+					<span class="border2"></span>
+					<span class="border3"></span>
+					<span class="handle">
+						<span class="handle-off"></span>
+						<span class="handle-on"></span>
+					</span>
+					<div class="panel_toggle_auto_hightlight">On/Off Hightlight</div>
+					<div class="panel-right">Add New Word</div>
+						<div style="text-align: left" >
+							<input type="text" id="hex">
+							<input type="color" id="color">
+						</div>
+						<div class="toggle-radio">
+							<input type="radio" name="rdo" id="yes" checked>
+							<input type="radio" name="rdo" id="no">
+							<div class="switch">
+							<label for="yes">ON</label>
+							<label for="no">OFF</label>
+							<span></span>
+						</div>
+						</div>
+					<main id="mainBlock">
+						<div class="button-block">
+							<form id="new-group-form">
+								<input id="new-group-color" type="text" pattern="[0-9a-fA-f]{6}" title="hex color code" />
+								<input id="add-button" class="button" type="submit" value="+" title="add group" />
+							</form>
+						</div>
+						<section>
+							<span class="toggle">
+								<input type="checkbox" class="pure-toggle-checkbox" hidden />
+								<label class="pure-toggle flip" for="pure-toggle-" id="toggle_button">
+									<div class="fontawesome-remove">OFF</div>
+									<div class="fontawesome-ok">ON</div>
+								</label>
+							</span>
+							<header class="color-header">C72E04</header>
+							<button class="remove-group-button button">x</button>
+							<textarea class="highlight-words" placeholder="(separated by a space)"></textarea>
+						</section>
+					</main>
+			</div>
+
+				<div class="panel" id="two-panel">
+
+					<div class="wrapper">
+						<div class="msg">
+						  <span class="box"> Spacing SLIDERS </span>
+						  Word Spacing
+						</div>
+						<custom-slider min="0" max="100" value="0"></custom-slider>
+					  </div>
+
+					  <div class="wrapper">
+						<div class="msg">
+						  Letter Spacing
+						</div>
+						<custom-slider2 min="0" max="10" value="0"></custom-slider2>
+					  </div>
+
+					  <div class="wrapper">
+						<div class="msg">
+						 <span class="box"> Word Size </span>
+						 Slide to change Size
+						</div>
+						<custom-slider3 min="0" max="20" value="0"></custom-slider3>
+					  </div>
+				</div>
+				<div class="panel" id="three-panel">
+					<div class="msg" >
+						<span class="box" style=" margin-bottom: 1.5rem ;"> FONT SELECTOR </span>
+
+						<div class="msg" style="margin-top: 30px;">
+							Choose font
+						  </div>
+
+						<header>  
+							<select id="mySelect">
+							<option id="fstyle" value="Arial">Arial</option>
+							<option id="fstyle" value="Courier">Courier</option>
+							<option id="fstyle" value="Helvetica">Helvetica</option>
+							<option id="fstyle" value="Verdana">Verdana</option>
+							<option id="fstyle" value="Times">Times</option>
+							<option id="fstyle" value="Tahoma">Tahoma</option>
+							<option id="fstyle" value="Century Gothic">Century Gothic</option>
+							<option id="fstyle" value="Trebuchet MS">Trebuchet MS</option>
+							<option id="fstyle" value="Calibri">Calibri</option>
+							<option id="fstyle" value="Open Sans">Open Sans</option>	 
+							</select>
+					  	</header>
+
+					  <div class="msg" style="margin-top: 30px;">
+						On/Off Greek Dyslexic font
+					  </div>
+					</div>
+
+					<div class="flipswitch">
+						<input type="checkbox" name="flipswitch" class="flipswitch-cb" id="fs" checked>
+						<label class="flipswitch-label" for="fs">
+							<div class="flipswitch-inner"></div>
+							<div class="flipswitch-switch"></div>
+						</label>
+					</div>
+					
+				</div>
+	</div>
+</div>
+	<script src="js/word_spacing.js"></script>
+	<script src="js/fonts.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="js/hex_color_pick.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,44 @@
+.wrapper {
+    top : 0 ;
+    left: 0 ;
+    margin-bottom: 3.5rem ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    flex-direction: column ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.msg {
+    color: #FFF ;
+    margin-bottom: 3.5rem ;
+    text-align: center ;
+    font-size: 2rem ;
+    letter-spacing: 5px ;
+}
+
+.box {
+    display: block ;
+    background-color: #31D3C6 ;
+    color: #043643 ;
+    font-size: 0.8rem ;
+    width: 100% ;
+    line-height: 2rem ;
+    height: 2rem ;
+    letter-spacing: 2px ;
+}
+
+custom-slider {
+    transform: scale(2);
+
+}
+custom-slider2 {
+    transform: scale(2);
+
+    
+}
+
+custom-slider3 {
+    transform: scale(2);
+
+}
+
