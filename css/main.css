@@ -1,6 +1,24 @@
+
+/*
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 html body{
-    /* background: url(https://i.ibb.co/7SFR9kV/icon-logo-48.png); */
+     background: url(https://i.ibb.co/7SFR9kV/icon-logo-48.png);
     font-family: Georgia;
     
+}
+*/
+
+@font-face {
+    font-family: 'OpenDyslexic-Regular';
+    src: url('../css/fonts/OpenDyslexic-Regular.woff') format('woff');     
+}
+
+body {
+    font-family: 'OpenDyslexic-Regular';
+}
+
+html body{
+    
+    font-family: 'OpenDyslexic-Regular';
+   
 }

@@ -160,6 +160,7 @@
 		})
 	});
 
+	
 	highlightWordAcrossNode(' Ζώνη ', 'FFE4C4');
 	highlightWordAcrossNode(' ζώνη ', 'FFE4C4');
 
