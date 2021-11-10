@@ -12,7 +12,7 @@
   margin:2px 2px;
   background:#023047;
   display:list-item;
-  color:#31D3C6;
+  color:#caf0f8;
   border-radius:3px 3px 0px 0px;
   box-shadow: 0 0.5rem 0.8rem #023047;
   text-transform: uppercase;
@@ -52,7 +52,7 @@
   font-size:1.5em;
   padding-top: -50px;
   font-weight:bold;
-  color: #31D3C6;
+  color: #caf0f8;
   width: 150px;
 	height: 50px;
 }
@@ -61,7 +61,7 @@
   margin-left: 300px;
   font-size:1.5em;
   font-weight:bold;
-  color: #31D3C6;
+  color: #caf0f8;
   width: 500px;
 	height: 50px;
 }
@@ -80,9 +80,13 @@
 #three:checked ~ .tabs #three-tab,
 #four:checked ~ .tabs #four-tab,
 #five:checked ~ .tabs #five-tab{
-  background:#FB8500;
+  background:#caf0f8;
+  
   color:#023047;
   font-style: bold;
 }
 
 
+/*FB8500
+
+color: #31D3C6;

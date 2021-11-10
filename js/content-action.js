@@ -161,15 +161,16 @@
 	});
 
 	
-	highlightWordAcrossNode(' Ζώνη ', 'FFE4C4');
-	highlightWordAcrossNode(' ζώνη ', 'FFE4C4');
+	highlightWordAcrossNode(' Ζώνη ', 'fcedb3');
+	highlightWordAcrossNode(' ζώνη ', 'fcedb3');
 
-	highlightWordAcrossNode(' Ζωή ', '0000FF');
-	highlightWordAcrossNode(' ζωή ', '0000FF');
+	highlightWordAcrossNode(' Ζωή ', 'fcb0c1');
+	highlightWordAcrossNode(' ζωή ', 'fcb0c1');
 
-	highlightWordAcrossNode(' Άγνωστοι ', 'FFE4C4');
+	highlightWordAcrossNode(' Άγνωστοι ', 'bc5714');
 
-	highlightWordAcrossNode(' πληρώνω ', '0000FF');
+	highlightWordAcrossNode(' πληρώνω ', 'bbe580');
+
 	highlightWordAcrossNode(' καρέκλα ', 'FFE4C4');
 	highlightWordAcrossNode(' θάλασσα ', '0000FF');
 	highlightWordAcrossNode(' γάλα ', 'FFE4C4');
@@ -246,1055 +247,1014 @@
 	highlightWordAcrossNode(' Μάιος ', 'FFE4C4');
 	//highlightWordAcrossNode('La', 'FFE4C4'); // testing purpose
 
-	/*
-	highlightWordAcrossNode(' Σόλα ', 'F4F6F6');
-	highlightWordAcrossNode(' σόλα ', 'F4F6F6');
+	
+	highlightWordAcrossNode(' Σόλα ', 'e8c481');
+	highlightWordAcrossNode(' σόλα ', 'e8c481');
 
-	highlightWordAcrossNode(' Λάσο ', 'F4F6F6');
-	highlightWordAcrossNode(' Λάσο ', 'F4F6F6');
+	highlightWordAcrossNode(' Λάσο ', 'e0bb70');
+	highlightWordAcrossNode(' Λάσο ', 'e0bb70');
 
-	highlightWordAcrossNode(' Γόπα ', 'F4F6F6');
-	highlightWordAcrossNode(' γόπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Γόπα ', 'eab956');
+	highlightWordAcrossNode(' γόπα ', 'eab956');
 
-	highlightWordAcrossNode(' Πάγο ', 'F4F6F6');
-	highlightWordAcrossNode(' Πάγο ', 'F4F6F6');
+	highlightWordAcrossNode(' Πάγο ', 'ccfffe');
+	highlightWordAcrossNode(' Πάγο ', 'ccfffe');
 
-	highlightWordAcrossNode(' Πρόκα ', 'F4F6F6');
-	highlightWordAcrossNode(' πρόκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πρόκα ', 'e2c271');
+	highlightWordAcrossNode(' πρόκα ', 'e2c271');
 
-	highlightWordAcrossNode(' Πάρκο ', 'F4F6F6');
-	highlightWordAcrossNode(' πάρκο ', 'F4F6F6');
+	highlightWordAcrossNode(' Πάρκο ', '85f957');
+	highlightWordAcrossNode(' πάρκο ', '85f957');
 
-	highlightWordAcrossNode(' Όπλο ', 'F4F6F6');
-	highlightWordAcrossNode(' όπλο ', 'F4F6F6');
+	highlightWordAcrossNode(' Όπλο ', 'f4f4f4');
+	highlightWordAcrossNode(' όπλο ', 'f4f4f4');
 
-	highlightWordAcrossNode(' Απλό ', 'F4F6F6');
-	highlightWordAcrossNode(' απλό ', 'F4F6F6');
+	highlightWordAcrossNode(' Απλό ', 'a7e5e5');
+	highlightWordAcrossNode(' απλό ', 'a7e5e5');
 
-	highlightWordAcrossNode(' Άρπα ', 'F4F6F6');
-	highlightWordAcrossNode(' άρπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Άρπα ', 'f3f489');
+	highlightWordAcrossNode(' άρπα ', 'f3f489');
 
-	highlightWordAcrossNode(' Κορμί ', 'F4F6F6');
-	highlightWordAcrossNode(' κορμί ', 'F4F6F6');
+	highlightWordAcrossNode(' Κορμί ', 'f9cbbd');
+	highlightWordAcrossNode(' κορμί ', 'f9cbbd');
 
-	highlightWordAcrossNode(' Μικρό ', 'F4F6F6');
-	highlightWordAcrossNode(' μικρό ', 'F4F6F6');
+	highlightWordAcrossNode(' Μικρό ', 'fcdef5');
+	highlightWordAcrossNode(' μικρό ', 'fcdef5');
 
-	highlightWordAcrossNode(' Στόμα ', 'F4F6F6');
-	highlightWordAcrossNode(' στόμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Στόμα ', 'f9cab3');
+	highlightWordAcrossNode(' στόμα ', 'f9cab3');
 
 	highlightWordAcrossNode(' Μάτσο ', 'F4F6F6');
 	highlightWordAcrossNode(' μάτσο ', 'F4F6F6');
 
-	highlightWordAcrossNode(' Νόμος ', 'F4F6F6');
-	highlightWordAcrossNode(' νόμος ', 'F4F6F6');
+	highlightWordAcrossNode(' Νόμος ', '9fc7f2');
+	highlightWordAcrossNode(' νόμος ', '9fc7f2');
 
-	highlightWordAcrossNode(' Μονός ', 'F4F6F6');
-	highlightWordAcrossNode(' μονός ', 'F4F6F6');
+	highlightWordAcrossNode(' Μονός ', 'e0e0e0');
+	highlightWordAcrossNode(' μονός ', 'e0e0e0');
 
-	highlightWordAcrossNode(' Σκότος ', 'F4F6F6');
-	highlightWordAcrossNode(' σκότος ', 'F4F6F6');
+	highlightWordAcrossNode(' Σκότος ', 'a0a0a0');
+	highlightWordAcrossNode(' σκότος ', 'a0a0a0');
 
-	highlightWordAcrossNode(' Κόστος ', 'F4F6F6');
-	highlightWordAcrossNode(' κόστος ', 'F4F6F6');
+	highlightWordAcrossNode(' Κόστος ', 'fdff93');
+	highlightWordAcrossNode(' κόστος ', 'fdff93');
+
+	highlightWordAcrossNode(' Νήμα ', 'c45e38');
+	highlightWordAcrossNode(' νήμα ', 'c45e38');
+
+	highlightWordAcrossNode(' Μήνα ', '19b6ff');
+	highlightWordAcrossNode(' μήνα ', '19b6ff');
+
+	highlightWordAcrossNode(' Αμήν ', 'edf26f');
+	highlightWordAcrossNode(' αμήν ', 'edf26f');
+
+	highlightWordAcrossNode(' Πίστα ', '919191');
+	highlightWordAcrossNode(' πίστα ', '919191');
+
+	highlightWordAcrossNode(' Κατσαρός ', 'edc79a');
+	highlightWordAcrossNode(' κατσαρός ', 'edc79a');
+
+	highlightWordAcrossNode(' Καστανός ', 'b77235');
+	highlightWordAcrossNode(' καστανός ', 'b77235');
+
+	highlightWordAcrossNode(' Αργός ', 'ad2105');
+	highlightWordAcrossNode(' αργός ', 'ad2105');
+
+	highlightWordAcrossNode(' Άπραχτος ', '79eac6');
+	highlightWordAcrossNode(' άπραχτος ', '79eac6');
+
+	highlightWordAcrossNode(' Παπί ', 'fffbba');
+	highlightWordAcrossNode(' παπί ', 'fffbba');
+
+	highlightWordAcrossNode(' Πίπα ', 'b77235');
+	highlightWordAcrossNode(' πίπα ', 'b77235');
+
+	highlightWordAcrossNode(' Ταπί ', 'cffc9c');
+	highlightWordAcrossNode(' ταπί ', 'cffc9c');
+
+	highlightWordAcrossNode(' Πίτα ', 'ea152a');
+	highlightWordAcrossNode(' πίτα ', 'ea152a');
+
+	highlightWordAcrossNode(' Ζάρι ', 'ededed');
+	highlightWordAcrossNode(' ζάρι ', 'ededed');
+
+	highlightWordAcrossNode(' Ρίζα ', 'a2f9a2');
+	highlightWordAcrossNode(' ρίζα ', 'a2f9a2');
+
+	highlightWordAcrossNode(' Ψηλή ', '6879dd');
+	highlightWordAcrossNode(' ψηλή ', '6879dd');
+
+	highlightWordAcrossNode(' Λήψη ', 'a4d9f4');
+	highlightWordAcrossNode(' λήψη ', 'a4d9f4');
+
+	highlightWordAcrossNode(' Ξηρή ', 'bc8a0b');
+	highlightWordAcrossNode(' ξηρή ', 'bc8a0b');
+
+	highlightWordAcrossNode(' Ρήξη ', 'ebf7e6');
+	highlightWordAcrossNode(' ρήξη ', 'ebf7e6');
+
+	highlightWordAcrossNode(' Καμπή ', '9ec0f7');
+	highlightWordAcrossNode(' καμπή ', '9ec0f7');
+
+	highlightWordAcrossNode(' Μπήκα ', 'fcbd79');
+	highlightWordAcrossNode(' μπήκα ', 'fcbd79');
+
+	highlightWordAcrossNode(' Δομές ', 'dbc9b8');
+	highlightWordAcrossNode(' δομές ', 'dbc9b8');
+
+	highlightWordAcrossNode(' Δεσμό ', 'd1a18a');
+	highlightWordAcrossNode(' δεσμό ', 'd1a18a');
+
+	highlightWordAcrossNode(' Στέκα ', '7f5c4f');
+	highlightWordAcrossNode(' στέκα ', '7f5c4f');
+
+	highlightWordAcrossNode(' Σκέτα ', 'e0e0e0');
+	highlightWordAcrossNode(' σκέτα ', 'e0e0e0');
+
+	highlightWordAcrossNode(' Φέτα ', 'cce8ff');
+	highlightWordAcrossNode(' φέτα ', 'cce8ff');
+
+	highlightWordAcrossNode(' Εφτά ', 'adadad');
+	highlightWordAcrossNode(' εφτά ', 'adadad');
+
+	highlightWordAcrossNode(' Τόπος ', '7de08a');
+	highlightWordAcrossNode(' τόπος ', '7de08a');
+
+	highlightWordAcrossNode(' Πόστο ', '738cc6');
+	highlightWordAcrossNode(' πόστο ', '738cc6');
+
+	highlightWordAcrossNode(' Στόλος ', '709ed3');
+	highlightWordAcrossNode(' στόλος ', '709ed3');
+
+	highlightWordAcrossNode(' Λοστός ', '3d3d3d');
+	highlightWordAcrossNode(' λοστός ', '3d3d3d');
+
+	highlightWordAcrossNode(' Κάσα ', 'cc6b3b');
+	highlightWordAcrossNode(' κάσα ', 'cc6b3b');
+
+	highlightWordAcrossNode(' Σάκα ', 'b54c0a');
+	highlightWordAcrossNode(' σάκα ', 'b54c0a');
+
+	highlightWordAcrossNode(' Καράβια ', 'd6713b');
+	highlightWordAcrossNode(' καράβια ', 'd6713b');
+
+	highlightWordAcrossNode(' Αραβικά ', '8e2102');
+	highlightWordAcrossNode(' αραβικά ', '8e2102');
+
+	highlightWordAcrossNode(' Σκάγια ', 'ed8497');
+	highlightWordAcrossNode(' σκάγια ', 'ed8497');
+
+	highlightWordAcrossNode(' Γιακάς ', 'edb784');
+	highlightWordAcrossNode(' γιακάς ', 'edb784');
+
+	highlightWordAcrossNode(' Ντομάτα ', 'f97284');
+	highlightWordAcrossNode(' ντομάτα ', 'f97284');
+
+	highlightWordAcrossNode(' Μαντάτο ', 'f9b3e3');
+	highlightWordAcrossNode(' μαντάτο ', 'f9b3e3');
+
+	highlightWordAcrossNode(' Κάρο ', 'f99981');
+	highlightWordAcrossNode(' κάρο ', 'f99981');
+
+	highlightWordAcrossNode(' Ρόκα ', 'aefcab');
+	highlightWordAcrossNode(' ρόκα ', 'aefcab');
+
+	highlightWordAcrossNode(' Νίκησα ', 'fcf4b5');
+	highlightWordAcrossNode(' νίκησα ', 'fcf4b5');
+
+	highlightWordAcrossNode(' Κίνησα ', '9be9ff');
+	highlightWordAcrossNode(' κίνησα ', '9be9ff');
+
+	highlightWordAcrossNode(' Αρχείο ', 'edb784');
+	highlightWordAcrossNode(' αρχείο ', 'edb784');
+
+	highlightWordAcrossNode(' Αχρείο ', 'dddddd');
+	highlightWordAcrossNode(' αχρείο ', 'dddddd');
+
+	highlightWordAcrossNode(' Αργία ', 'b7b7b7');
+	highlightWordAcrossNode(' αργία ', 'b7b7b7');
+
+	highlightWordAcrossNode(' Άγρια ', 'c60522');
+	highlightWordAcrossNode(' άγρια ', 'c60522');
+
+	highlightWordAcrossNode(' Αρπαγή ', 'f24f3a');
+	highlightWordAcrossNode(' αρπαγή ', 'f24f3a');
+
+	highlightWordAcrossNode(' Άπραγη ', 'f4d0b5');
+	highlightWordAcrossNode(' άπραγη ', 'f4d0b5');
+
+	highlightWordAcrossNode(' Πατρίδα ', 'a7e8f9');
+	highlightWordAcrossNode(' πατρίδα ', 'a7e8f9');
+
+	highlightWordAcrossNode(' Παρτίδα ', 'd8ffa3');
+	highlightWordAcrossNode(' παρτίδα ', 'd8ffa3');
+
+	highlightWordAcrossNode(' Κόπος ', 'e5096f');
+	highlightWordAcrossNode(' κόπος ', 'e5096f');
+
+	highlightWordAcrossNode(' Σκοπό ', 'c4d6ff');
+	highlightWordAcrossNode(' σκοπό ', 'c4d6ff');
+
+
+
+	highlightWordAcrossNode(' Μύθος ', '69eab2');
+	highlightWordAcrossNode(' μύθος ', '69eab2');
+
+	highlightWordAcrossNode(' Θυμός ', 'f78988');
+	highlightWordAcrossNode(' θυμός ', 'f78988');
+
+
+	highlightWordAcrossNode(' Μπάλα ', 'b0d9fc');
+	highlightWordAcrossNode(' μπάλα ', 'b0d9fc');
+
+	highlightWordAcrossNode(' Πάστα ', 'bee5f7');
+	highlightWordAcrossNode(' πάστα ', 'bee5f7');
+
+	highlightWordAcrossNode(' Τσάπα ', 'ef9d92');
+	highlightWordAcrossNode(' τσάπα ', 'ef9d92');
+
+	highlightWordAcrossNode(' Σκάλα ', 'f2c6a2');
+	highlightWordAcrossNode(' σκάλα ', 'f2c6a2');
+
+	highlightWordAcrossNode(' Λάσκα ', 'e6c0f9');
+	highlightWordAcrossNode(' λάσκα ', 'e6c0f9');
+
+	highlightWordAcrossNode(' Σόμπα ', 'f4e375');
+	highlightWordAcrossNode(' σόμπα ', 'f4e375');
+
+	highlightWordAcrossNode(' Μπάσο ', 'b49aed');
+	highlightWordAcrossNode(' μπάσο ', 'b49aed');
+
+	highlightWordAcrossNode(' Όλος ', 'f9c8a9');
+	highlightWordAcrossNode(' όλος ', 'f9c8a9');
+
+	highlightWordAcrossNode(' Σόλο ', '74f289');
+	highlightWordAcrossNode(' σόλο ', '74f289');
+
+	highlightWordAcrossNode(' Σώμα ', 'fccc85');
+	highlightWordAcrossNode(' σώμα ', 'fccc85');
+
+	highlightWordAcrossNode(' Μασώ ', 'fca4a7');
+	highlightWordAcrossNode(' μασώ ', 'fca4a7');
+
+	highlightWordAcrossNode(' Μάτια ', 'ffd1b7');
+	highlightWordAcrossNode(' μάτια ', 'ffd1b7');
+
+	highlightWordAcrossNode(' Άτιμα ', 'beed7d');
+	highlightWordAcrossNode(' άτιμα ', 'beed7d');
+
+	highlightWordAcrossNode(' Μάνα ', '61abd8');
+	highlightWordAcrossNode(' μάνα ', '61abd8');
+
+	highlightWordAcrossNode(' Αμάν ', 'ffcce9');
+	highlightWordAcrossNode(' αμάν ', 'ffcce9');
 	
-	highlightWordAcrossNode(' Στόκος ', 'F4F6F6');
-	highlightWordAcrossNode(' στόκος ', 'F4F6F6');
+	highlightWordAcrossNode(' Μπουκιά ', 'ffccd7');
+	highlightWordAcrossNode(' μπουκιά ', 'ffccd7');
 
-	highlightWordAcrossNode(' Κότσος ', 'F4F6F6');
-	highlightWordAcrossNode(' κότσος ', 'F4F6F6');
+	highlightWordAcrossNode(' Κουμπιά ', 'ffc99e');
+	highlightWordAcrossNode(' κουμπιά ', 'ffc99e');
 
-	highlightWordAcrossNode(' Κότσος ', 'F4F6F6');
-	highlightWordAcrossNode(' κότσος ', 'F4F6F6');
+	highlightWordAcrossNode(' Φαράσι ', 'ed8492');
+	highlightWordAcrossNode(' φαράσι ', 'ed8492');
 
-	highlightWordAcrossNode(' Νήμα ', 'F4F6F6');
-	highlightWordAcrossNode(' νήμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Σαφάρι ', 'a4f990');
+	highlightWordAcrossNode(' σαφάρι ', 'a4f990');
 
-	highlightWordAcrossNode(' Μήνα ', 'F4F6F6');
-	highlightWordAcrossNode(' μήνα ', 'F4F6F6');
+	highlightWordAcrossNode(' Βοή ', '83c8ea');
+	highlightWordAcrossNode(' βοή ', '83c8ea');
 
-	highlightWordAcrossNode(' Αμήν ', 'F4F6F6');
-	highlightWordAcrossNode(' αμήν ', 'F4F6F6');
+	highlightWordAcrossNode(' Ροή ', 'c6e3ff');
+	highlightWordAcrossNode(' ροή ', 'c6e3ff');
 
-	highlightWordAcrossNode(' Πίστα ', 'F4F6F6');
-	highlightWordAcrossNode(' πίστα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πράγμα ', 'bbf3f7');
+	highlightWordAcrossNode(' πράγμα ', 'bbf3f7');
 
-	highlightWordAcrossNode(' Πίτσα ', 'F4F6F6');
-	highlightWordAcrossNode(' πίτσα ', 'F4F6F6');
+	highlightWordAcrossNode(' Φράγμα ', 'f0f49a');
+	highlightWordAcrossNode(' φράγμα ', 'f0f49a');
 
-	highlightWordAcrossNode(' Κατσαρός ', 'F4F6F6');
-	highlightWordAcrossNode(' κατσαρός ', 'F4F6F6');
+	highlightWordAcrossNode(' Βάρος ', '8f87ff');
+	highlightWordAcrossNode(' βάρος ', '8f87ff');
 
-	highlightWordAcrossNode(' Καστανός ', 'F4F6F6');
-	highlightWordAcrossNode(' καστανός ', 'F4F6F6');
+	highlightWordAcrossNode(' Φάρος ', 'f9f1a7');
+	highlightWordAcrossNode(' φάρος ', 'f9f1a7');
 
-	highlightWordAcrossNode(' Αργός ', 'F4F6F6');
-	highlightWordAcrossNode(' αργός ', 'F4F6F6');
+	highlightWordAcrossNode(' Θάρρος ', '84ffee');
+	highlightWordAcrossNode(' θάρρος ', '84ffee');
 
-	highlightWordAcrossNode(' Άπραχτος ', 'F4F6F6');
-	highlightWordAcrossNode(' άπραχτος ', 'F4F6F6');
+	highlightWordAcrossNode(' Πόρτα ', 'f9e6a2');
+	highlightWordAcrossNode(' πόρτα ', 'f9e6a2');
 
-	highlightWordAcrossNode(' Αρπαχτός ', 'F4F6F6');
-	highlightWordAcrossNode(' αρπαχτός ', 'F4F6F6');
+	highlightWordAcrossNode(' Χόρτα ', '7aef95');
+	highlightWordAcrossNode(' χόρτα ', '7aef95');
 
-	highlightWordAcrossNode(' Παπί ', 'F4F6F6');
-	highlightWordAcrossNode(' παπί ', 'F4F6F6');
+	highlightWordAcrossNode(' Ψέμα ', 'f9fca1');
+	highlightWordAcrossNode(' ψέμα ', 'f9fca1');
 
-	highlightWordAcrossNode(' Πίπα ', 'F4F6F6');
-	highlightWordAcrossNode(' πίπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Δέμα ', 'd6bb42');
+	highlightWordAcrossNode(' δέμα ', 'd6bb42');
 
-	highlightWordAcrossNode(' Ταπί ', 'F4F6F6');
-	highlightWordAcrossNode(' ταπί ', 'F4F6F6');
+	highlightWordAcrossNode(' Βλέμμα ', 'ef8389');
+	highlightWordAcrossNode(' βλέμμα ', 'ef8389');
 
-	highlightWordAcrossNode(' Πίτα ', 'F4F6F6');
-	highlightWordAcrossNode(' πίτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κάστρο ', 'fca874');
+	highlightWordAcrossNode(' κάστρο ', 'fca874');
 
-	highlightWordAcrossNode(' Ζάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' ζάρι ', 'F4F6F6');
+	highlightWordAcrossNode(' Άστρο ', 'c9ffff');
+	highlightWordAcrossNode(' άστρο ', 'c9ffff');
 
-	highlightWordAcrossNode(' Ρίζα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρίζα ', 'F4F6F6');
+	highlightWordAcrossNode(' Σαύρα ', 'b3f274');
+	highlightWordAcrossNode(' σαύρα ', 'b3f274');
 
-	highlightWordAcrossNode(' Ψηλή ', 'F4F6F6');
-	highlightWordAcrossNode(' ψηλή ', 'F4F6F6');
+	highlightWordAcrossNode(' Αύρα ', '89eaf9');
+	highlightWordAcrossNode(' αύρα ', '89eaf9');
 
-	highlightWordAcrossNode(' Λήψη ', 'F4F6F6');
-	highlightWordAcrossNode(' λήψη ', 'F4F6F6');
+	highlightWordAcrossNode(' Χιόνι ', 'c4e6fc');
+	highlightWordAcrossNode(' χιόνι ', 'c4e6fc');
 
-	highlightWordAcrossNode(' Ξηρή ', 'F4F6F6');
-	highlightWordAcrossNode(' ξηρή ', 'F4F6F6');
+	highlightWordAcrossNode(' Πιόνι ', 'cccccc');
+	highlightWordAcrossNode(' πιόνι ', 'cccccc');
 
-	highlightWordAcrossNode(' Ρήξη ', 'F4F6F6');
-	highlightWordAcrossNode(' ρήξη ', 'F4F6F6');
+	highlightWordAcrossNode(' Πόδι ', 'fc8e8a');
+	highlightWordAcrossNode(' πόδι ', 'fc8e8a');
 
-	highlightWordAcrossNode(' Καμπή ', 'F4F6F6');
-	highlightWordAcrossNode(' καμπή ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρόδι ', 'ef8389');
+	highlightWordAcrossNode(' ρόδι ', 'ef8389');
 
-	highlightWordAcrossNode(' Μπήκα ', 'F4F6F6');
-	highlightWordAcrossNode(' μπήκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ποδιά ', 'ed8c80');
+	highlightWordAcrossNode(' ποδιά ', 'ed8c80');
 
-	highlightWordAcrossNode(' Δομές ', 'F4F6F6');
-	highlightWordAcrossNode(' δομές ', 'F4F6F6');
+	highlightWordAcrossNode(' Ροδιά ', 'f76845');
+	highlightWordAcrossNode(' ροδιά ', 'f76845');
 
-	highlightWordAcrossNode(' Δεσμό ', 'F4F6F6');
-	highlightWordAcrossNode(' δεσμό ', 'F4F6F6');
+	highlightWordAcrossNode(' Γερός ', 'f2b285');
+	highlightWordAcrossNode(' γερός ', 'f2b285');
 
-	highlightWordAcrossNode(' Στέκα ', 'F4F6F6');
-	highlightWordAcrossNode(' στέκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ξερός ', 'fff4bf');
+	highlightWordAcrossNode(' ξερός ', 'fff4bf');
 
-	highlightWordAcrossNode(' Σκέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' σκέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ξίδι ', 'edab76');
+	highlightWordAcrossNode(' ξίδι ', 'edab76');
 
-	highlightWordAcrossNode(' Φέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' φέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μύδι ', 'b2ffd1');
+	highlightWordAcrossNode(' μύδι ', 'b2ffd1');
 
-	highlightWordAcrossNode(' Εφτά ', 'F4F6F6');
-	highlightWordAcrossNode(' εφτά ', 'F4F6F6');
+	highlightWordAcrossNode(' Φρύδι ', 'ffbcd5');
+	highlightWordAcrossNode(' φρύδι ', 'ffbcd5');
 
-	highlightWordAcrossNode(' Τόπος ', 'F4F6F6');
-	highlightWordAcrossNode(' τόπος ', 'F4F6F6');
+	highlightWordAcrossNode(' Στρείδι ', 'adaaef');
+	highlightWordAcrossNode(' στρείδι ', 'adaaef');
 
-	highlightWordAcrossNode(' Πόστο ', 'F4F6F6');
-	highlightWordAcrossNode(' πόστο ', 'F4F6F6');
+	highlightWordAcrossNode(' Κόμπος ', 'f2b676');
+	highlightWordAcrossNode(' κόμπος ', 'f2b676');
 
-	highlightWordAcrossNode(' Στόλος ', 'F4F6F6');
-	highlightWordAcrossNode(' στόλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Γλόμπος ', 'bcd2ff');
+	highlightWordAcrossNode(' γλόμπος ', 'bcd2ff');
 
-	highlightWordAcrossNode(' Λοστός ', 'F4F6F6');
-	highlightWordAcrossNode(' λοστός ', 'F4F6F6');
+	highlightWordAcrossNode(' Λάθος ', 'f97292');
+	highlightWordAcrossNode(' λάθος ', 'f97292');
 
-	highlightWordAcrossNode(' Κάσα ', 'F4F6F6');
-	highlightWordAcrossNode(' κάσα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πάθoς ', 'f79edf');
+	highlightWordAcrossNode(' πάθoς ', 'f79edf');
 
-	highlightWordAcrossNode(' Σάκα ', 'F4F6F6');
-	highlightWordAcrossNode(' σάκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Βάθος ', '9b7cff');
+	highlightWordAcrossNode(' βάθος ', '9b7cff');
 
-	highlightWordAcrossNode(' Καράβια ', 'F4F6F6');
-	highlightWordAcrossNode(' καράβια ', 'F4F6F6');
+	highlightWordAcrossNode(' Κώμα ', 'ebef6e');
+	highlightWordAcrossNode(' κώμα ', 'ebef6e');
 
-	highlightWordAcrossNode(' Αραβικά ', 'F4F6F6');
-	highlightWordAcrossNode(' αραβικά ', 'F4F6F6');
+	highlightWordAcrossNode(' Δώμα ', 'ccf9a4');
+	highlightWordAcrossNode(' δώμα ', 'ccf9a4');
 
-	highlightWordAcrossNode(' Σκάγια ', 'F4F6F6');
-	highlightWordAcrossNode(' σκάγια ', 'F4F6F6');
+	highlightWordAcrossNode(' Χώμα ', 'ffccf3');
+	highlightWordAcrossNode(' χώμα ', 'ffccf3');
 
-	highlightWordAcrossNode(' Γιακάς ', 'F4F6F6');
-	highlightWordAcrossNode(' γιακάς ', 'F4F6F6');
+	highlightWordAcrossNode(' Βρώμα ', 'f2a77b');
+	highlightWordAcrossNode(' βρώμα ', 'f2a77b');
 
-	highlightWordAcrossNode(' Ντομάτα ', 'F4F6F6');
-	highlightWordAcrossNode(' ντομάτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πώμα ', 'efc777');
+	highlightWordAcrossNode(' πώμα ', 'efc777');
 
-	highlightWordAcrossNode(' Μαντάτο ', 'F4F6F6');
-	highlightWordAcrossNode(' μαντάτο ', 'F4F6F6');
+	highlightWordAcrossNode(' Πτώμα ', 'f9f895');
+	highlightWordAcrossNode(' πτώμα ', 'f9f895');
 
-	highlightWordAcrossNode(' Κάρο ', 'F4F6F6');
-	highlightWordAcrossNode(' κάρο ', 'F4F6F6');
+	highlightWordAcrossNode(' Χυλός ', 'f4ef86');
+	highlightWordAcrossNode(' χυλός ', 'f4ef86');
 
-	highlightWordAcrossNode(' Ρόκα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρόκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ψηλός ', 'aed0ef');
+	highlightWordAcrossNode(' ψηλός ', 'aed0ef');
 
-	highlightWordAcrossNode(' Νίκησα ', 'F4F6F6');
-	highlightWordAcrossNode(' νίκησα ', 'F4F6F6');
+	highlightWordAcrossNode(' Τρένο ', 'f4f4f4');
+	highlightWordAcrossNode(' τρένο ', 'f4f4f4');
 
-	highlightWordAcrossNode(' Κίνησα ', 'F4F6F6');
-	highlightWordAcrossNode(' κίνησα ', 'F4F6F6');
+	highlightWordAcrossNode(' Φρένο ', 'f4f4f4');
+	highlightWordAcrossNode(' φρένο ', 'f4f4f4');
 
-	highlightWordAcrossNode(' Αρχείο ', 'F4F6F6');
-	highlightWordAcrossNode(' αρχείο ', 'F4F6F6');
+	highlightWordAcrossNode(' Σούστα ', 'c9c9c9');
+	highlightWordAcrossNode(' σούστα ', 'c9c9c9');
 
-	highlightWordAcrossNode(' Αχρείο ', 'F4F6F6');
-	highlightWordAcrossNode(' αχρείο ', 'F4F6F6');
+	highlightWordAcrossNode(' Φούστα ', 'ffce7f');
+	highlightWordAcrossNode(' φούστα ', 'ffce7f');
 
-	highlightWordAcrossNode(' Αργία ', 'F4F6F6');
-	highlightWordAcrossNode(' αργία ', 'F4F6F6');
+	highlightWordAcrossNode(' Πλύση ', 'bcd2ff');
+	highlightWordAcrossNode(' πλύση ', 'bcd2ff');
 
-	highlightWordAcrossNode(' Άγρια ', 'F4F6F6');
-	highlightWordAcrossNode(' άγρια ', 'F4F6F6');
+	highlightWordAcrossNode(' Βρύση ', '8ef0ff');
+	highlightWordAcrossNode(' βρύση ', '8ef0ff');
 
-	highlightWordAcrossNode(' Αρπαγή ', 'F4F6F6');
-	highlightWordAcrossNode(' αρπαγή ', 'F4F6F6');
+	highlightWordAcrossNode(' Κρίση ', 'f97292');
+	highlightWordAcrossNode(' κρίση ', 'f97292');
 
-	highlightWordAcrossNode(' Άπραγη ', 'F4F6F6');
-	highlightWordAcrossNode(' άπραγη ', 'F4F6F6');
+	highlightWordAcrossNode(' Μέρα ', '77f1f9');
+	highlightWordAcrossNode(' μέρα ', '77f1f9');
 
-	highlightWordAcrossNode(' Πατρίδα ', 'F4F6F6');
-	highlightWordAcrossNode(' πατρίδα ', 'F4F6F6');
+	highlightWordAcrossNode(' Βέρα ', 'fff684');
+	highlightWordAcrossNode(' βέρα ', 'fff684');
 
-	highlightWordAcrossNode(' Παρτίδα ', 'F4F6F6');
-	highlightWordAcrossNode(' παρτίδα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ξέρα ', 'f2b676');
+	highlightWordAcrossNode(' ξέρα ', 'f2b676');
 
-	highlightWordAcrossNode(' Κόπος ', 'F4F6F6');
-	highlightWordAcrossNode(' κόπος ', 'F4F6F6');
+	highlightWordAcrossNode(' Πέρα ', 'f69cfc');
+	highlightWordAcrossNode(' πέρα ', 'f69cfc');
 
-	highlightWordAcrossNode(' Σκοπό ', 'F4F6F6');
-	highlightWordAcrossNode(' σκοπό ', 'F4F6F6');
+	highlightWordAcrossNode(' Λέρα ', '9ae86d');
+	highlightWordAcrossNode(' λέρα ', '9ae86d');
 
-	highlightWordAcrossNode(' Παστό ', 'F4F6F6');
-	highlightWordAcrossNode(' παστό ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρητός ', 'edab76');
+	highlightWordAcrossNode(' ρητός ', 'edab76');
 
-	highlightWordAcrossNode(' Πόστα ', 'F4F6F6');
-	highlightWordAcrossNode(' πόστα ', 'F4F6F6');
+	highlightWordAcrossNode(' Λιτός ', 'edab76');
+	highlightWordAcrossNode(' λιτός ', 'edab76');
 
-	highlightWordAcrossNode(' Μύθος ', 'F4F6F6');
-	highlightWordAcrossNode(' μύθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Ψητός ', 'f7b391');
+	highlightWordAcrossNode(' ψητός ', 'f7b391');
 
-	highlightWordAcrossNode(' Θυμός ', 'F4F6F6');
-	highlightWordAcrossNode(' θυμός ', 'F4F6F6');
+	highlightWordAcrossNode(' Αυλή ', 'f9f9a4');
+	highlightWordAcrossNode(' αυλή ', 'f9f9a4');
 
-	highlightWordAcrossNode(' Λάμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' λάμπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Αυγή ', 'e9f271');
+	highlightWordAcrossNode(' αυγή ', 'e9f271');
 
-	highlightWordAcrossNode(' Μπάλα ', 'F4F6F6');
-	highlightWordAcrossNode(' μπάλα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κραυγή ', 'ea729a');
+	highlightWordAcrossNode(' κραυγή ', 'ea729a');
 
-	highlightWordAcrossNode(' Πάστα ', 'F4F6F6');
-	highlightWordAcrossNode(' πάστα ', 'F4F6F6');
+	highlightWordAcrossNode(' Στάμπα ', 'f7b391');
+	highlightWordAcrossNode(' στάμπα ', 'f7b391');
 
-	highlightWordAcrossNode(' Τσάπα ', 'F4F6F6');
-	highlightWordAcrossNode(' τσάπα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Σκάλα ', 'F4F6F6');
-	highlightWordAcrossNode(' σκάλα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Λάσκα ', 'F4F6F6');
-	highlightWordAcrossNode(' λάσκα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Σόμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' σόμπα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μπάσο ', 'F4F6F6');
-	highlightWordAcrossNode(' μπάσο ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Όλος ', 'F4F6F6');
-	highlightWordAcrossNode(' όλος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Σόλο ', 'F4F6F6');
-	highlightWordAcrossNode(' σόλο ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Σώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' σώμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μασώ ', 'F4F6F6');
-	highlightWordAcrossNode(' μασώ ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μάτια ', 'F4F6F6');
-	highlightWordAcrossNode(' μάτια ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Άτιμα ', 'F4F6F6');
-	highlightWordAcrossNode(' άτιμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μάνα ', 'F4F6F6');
-	highlightWordAcrossNode(' μάνα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Αμάν ', 'F4F6F6');
-	highlightWordAcrossNode(' αμάν ', 'F4F6F6');
+	highlightWordAcrossNode(' Λάμπα ', 'f9e277');
+	highlightWordAcrossNode(' λάμπα ', 'f9e277');
 	
-	highlightWordAcrossNode(' Μπουκιά ', 'F4F6F6');
-	highlightWordAcrossNode(' μπουκιά ', 'F4F6F6');
+	highlightWordAcrossNode(' Σάμπα ', 'fcf18f');
+	highlightWordAcrossNode(' σάμπα ', 'fcf18f');
 
-	highlightWordAcrossNode(' Κουμπιά ', 'F4F6F6');
-	highlightWordAcrossNode(' κουμπιά ', 'F4F6F6');
+	highlightWordAcrossNode(' Κράμπα ', '95a5ed');
+	highlightWordAcrossNode(' κράμπα ', '95a5ed');
 
-	highlightWordAcrossNode(' Φαράσι ', 'F4F6F6');
-	highlightWordAcrossNode(' φαράσι ', 'F4F6F6');
+	highlightWordAcrossNode(' Ράμπα ', '9bd3ef');
+	highlightWordAcrossNode(' ράμπα ', '9bd3ef');
 
-	highlightWordAcrossNode(' Σαφάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' σαφάρι ', 'F4F6F6');
+	highlightWordAcrossNode(' Χάδι ', 'f9bfff');
+	highlightWordAcrossNode(' χάδι ', 'f9bfff');
 
-	highlightWordAcrossNode(' Βοή ', 'F4F6F6');
-	highlightWordAcrossNode(' βοή ', 'F4F6F6');
+	highlightWordAcrossNode(' Λάδι ', 'e9f271');
+	highlightWordAcrossNode(' λάδι ', 'e9f271');
 
-	highlightWordAcrossNode(' Ροή ', 'F4F6F6');
-	highlightWordAcrossNode(' ροή ', 'F4F6F6');
+	highlightWordAcrossNode(' Βράδυ ', '61d2d8');
+	highlightWordAcrossNode(' βράδυ ', '61d2d8');
 
-	highlightWordAcrossNode(' Πράγμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πράγμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κάλτσα ', 'f9e277');
+	highlightWordAcrossNode(' κάλτσα ', 'f9e277');
 
-	highlightWordAcrossNode(' Φράγμα ', 'F4F6F6');
-	highlightWordAcrossNode(' φράγμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Σάλτσα ', 'ea3f4a');
+	highlightWordAcrossNode(' σάλτσα ', 'ea3f4a');
 
-	highlightWordAcrossNode(' Βάρος ', 'F4F6F6');
-	highlightWordAcrossNode(' βάρος ', 'F4F6F6');
+	highlightWordAcrossNode(' Θυμός ', 'ef706e');
+	highlightWordAcrossNode(' θυμός ', 'ef706e');
 
-	highlightWordAcrossNode(' Φάρος ', 'F4F6F6');
-	highlightWordAcrossNode(' φάρος ', 'F4F6F6');
+	highlightWordAcrossNode(' Μπρίζα ', 'd3d3d3');
+	highlightWordAcrossNode(' μπρίζα ', 'd3d3d3');
 
-	highlightWordAcrossNode(' Θάρρος ', 'F4F6F6');
-	highlightWordAcrossNode(' θάρρος ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρώμη ', 'ef706e');
+	highlightWordAcrossNode(' ρώμη ', 'ef706e');
 
-	highlightWordAcrossNode(' Πόρτα ', 'F4F6F6');
-	highlightWordAcrossNode(' πόρτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Γνώμη ', 'adc0ff');
+	highlightWordAcrossNode(' γνώμη ', 'adc0ff');
 
-	highlightWordAcrossNode(' Χόρτα ', 'F4F6F6');
-	highlightWordAcrossNode(' χόρτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κρίμα ', 'ade5ed');
+	highlightWordAcrossNode(' κρίμα ', 'ade5ed');
 
-	highlightWordAcrossNode(' Ψέμα ', 'F4F6F6');
-	highlightWordAcrossNode(' ψέμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Χρήμα ', 'f4ee7a');
+	highlightWordAcrossNode(' χρήμα ', 'f4ee7a');
 
-	highlightWordAcrossNode(' Δέμα ', 'F4F6F6');
-	highlightWordAcrossNode(' δέμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Τρίμμα ', 'f4cbad');
+	highlightWordAcrossNode(' τρίμμα ', 'f4cbad');
 
-	highlightWordAcrossNode(' Βλέμμα ', 'F4F6F6');
-	highlightWordAcrossNode(' βλέμμα ', 'F4F6F6');
+	highlightWordAcrossNode(' φώτα ', 'f9f94a');
+	highlightWordAcrossNode(' Φώτα ', 'f9f94a');
 
-	highlightWordAcrossNode(' Κάστρο ', 'F4F6F6');
-	highlightWordAcrossNode(' κάστρο ', 'F4F6F6');
+	highlightWordAcrossNode(' Χνώτα ', '85e5f2');
+	highlightWordAcrossNode(' χνώτα ', '85e5f2');
 
-	highlightWordAcrossNode(' Άστρο ', 'F4F6F6');
-	highlightWordAcrossNode(' άστρο ', 'F4F6F6');
+	highlightWordAcrossNode(' Κότα ', 'f7bed6');
+	highlightWordAcrossNode(' κότα ', 'f7bed6');
 
-	highlightWordAcrossNode(' Σαύρα ', 'F4F6F6');
-	highlightWordAcrossNode(' σαύρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρώτα ', '8defe5');
+	highlightWordAcrossNode(' ρώτα ', '8defe5');
 
-	highlightWordAcrossNode(' Αύρα ', 'F4F6F6');
-	highlightWordAcrossNode(' αύρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Νότα ', 'd5f77e');
+	highlightWordAcrossNode(' νότα ', 'd5f77e');
 
-	highlightWordAcrossNode(' Χιόνι ', 'F4F6F6');
-	highlightWordAcrossNode(' χιόνι ', 'F4F6F6');
+	highlightWordAcrossNode(' Βατός ', 'ccedff');
+	highlightWordAcrossNode(' βατός ', 'ccedff');
 
-	highlightWordAcrossNode(' Πιόνι ', 'F4F6F6');
-	highlightWordAcrossNode(' πιόνι ', 'F4F6F6');
+	highlightWordAcrossNode(' Πάτος ', 'e0e0e0');
+	highlightWordAcrossNode(' πάτος ', 'e0e0e0');
 
-	highlightWordAcrossNode(' Πόδι ', 'F4F6F6');
-	highlightWordAcrossNode(' πόδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Γάτος ', 'fce8c4');
+	highlightWordAcrossNode(' γάτος ', 'fce8c4');
 
-	highlightWordAcrossNode(' Ρόδι ', 'F4F6F6');
-	highlightWordAcrossNode(' ρόδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Νεύμα ', 'b5fafc');
+	highlightWordAcrossNode(' νεύμα ', 'b5fafc');
 
-	highlightWordAcrossNode(' Ποδιά ', 'F4F6F6');
-	highlightWordAcrossNode(' ποδιά ', 'F4F6F6');
+	highlightWordAcrossNode(' Γεύμα ', 'fcb279');
+	highlightWordAcrossNode(' γεύμα ', 'fcb279');
 
-	highlightWordAcrossNode(' Ροδιά ', 'F4F6F6');
-	highlightWordAcrossNode(' ροδιά ', 'F4F6F6');
+	highlightWordAcrossNode(' Πνεύμα ', 'a2f9f2');
+	highlightWordAcrossNode(' πνεύμα ', 'a2f9f2');
 
-	highlightWordAcrossNode(' Γερός ', 'F4F6F6');
-	highlightWordAcrossNode(' γερός ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρεύμα ', 'f4ed84');
+	highlightWordAcrossNode(' ρεύμα ', 'f4ed84');
 
-	highlightWordAcrossNode(' Ξερός ', 'F4F6F6');
-	highlightWordAcrossNode(' ξερός ', 'F4F6F6');
+	highlightWordAcrossNode(' Στάλα ', 'abdef2');
+	highlightWordAcrossNode(' στάλα ', 'abdef2');
 
-	highlightWordAcrossNode(' Ξίδι ', 'F4F6F6');
-	highlightWordAcrossNode(' ξίδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Σπάλα ', 'd1d80a');
+	highlightWordAcrossNode(' σπάλα ', 'd1d80a');
 
-	highlightWordAcrossNode(' Μύδι ', 'F4F6F6');
-	highlightWordAcrossNode(' μύδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Θήρα ', '9b8cff');
+	highlightWordAcrossNode(' θήρα ', '9b8cff');
 
-	highlightWordAcrossNode(' Φρύδι ', 'F4F6F6');
-	highlightWordAcrossNode(' φρύδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Χήρα ', '6b7fc4');
+	highlightWordAcrossNode(' χήρα ', '6b7fc4');
 
-	highlightWordAcrossNode(' Στρείδι ', 'F4F6F6');
-	highlightWordAcrossNode(' στρείδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Μοίρα ', 'b5fafc');
+	highlightWordAcrossNode(' μοίρα ', 'b5fafc');
 
-	highlightWordAcrossNode(' Κόμπος ', 'F4F6F6');
-	highlightWordAcrossNode(' κόμπος ', 'F4F6F6');
+	highlightWordAcrossNode(' Πήρα ', '6df289');
+	highlightWordAcrossNode(' πήρα ', '6df289');
 
-	highlightWordAcrossNode(' Γλόμπος ', 'F4F6F6');
-	highlightWordAcrossNode(' γλόμπος ', 'F4F6F6');
+	highlightWordAcrossNode(' Ψείρα ', 'f4ed84');
+	highlightWordAcrossNode(' ψείρα ', 'f4ed84');
 
-	highlightWordAcrossNode(' Λάθος ', 'F4F6F6');
-	highlightWordAcrossNode(' λάθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Γράμμα ', 'fcb279');
+	highlightWordAcrossNode(' γράμμα ', 'fcb279');
 
-	highlightWordAcrossNode(' Πάθoς ', 'F4F6F6');
-	highlightWordAcrossNode(' πάθoς ', 'F4F6F6');
+	highlightWordAcrossNode(' Δράμα ', 'f97289');
+	highlightWordAcrossNode(' δράμα ', 'f97289');
 
-	highlightWordAcrossNode(' Βάθος ', 'F4F6F6');
-	highlightWordAcrossNode(' βάθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Κράμα ', 'fff9aa');
+	highlightWordAcrossNode(' κράμα ', 'fff9aa');
 
-	highlightWordAcrossNode(' Κώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κώμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πράμα ', 'dbbdfc');
+	highlightWordAcrossNode(' πράμα ', 'dbbdfc');
 
-	highlightWordAcrossNode(' Δώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' δώμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Βράκα ', 'f9eb8b');
+	highlightWordAcrossNode(' βράκα ', 'f9eb8b');
 
-	highlightWordAcrossNode(' Χώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' χώμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Θράκα ', 'a0ffff');
+	highlightWordAcrossNode(' θράκα ', 'a0ffff');
 
-	highlightWordAcrossNode(' Βρώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' βρώμα ', 'F4F6F6');
 
-	highlightWordAcrossNode(' Σώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' σώμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Βήμα ', 'b5fafc');
+	highlightWordAcrossNode(' βήμα ', 'b5fafc');
 
-	highlightWordAcrossNode(' Πώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πώμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Σήμα ', '968de8');
+	highlightWordAcrossNode(' σήμα ', '968de8');
 
-	highlightWordAcrossNode(' Πτώμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πτώμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κύμα ', 'fbb5ff');
+	highlightWordAcrossNode(' κύμα ', 'fbb5ff');
 
-	highlightWordAcrossNode(' Χυλός ', 'F4F6F6');
-	highlightWordAcrossNode(' χυλός ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρήμα ', 'f4c2a4');
+	highlightWordAcrossNode(' ρήμα ', 'f4c2a4');
 
-	highlightWordAcrossNode(' Ψηλός ', 'F4F6F6');
-	highlightWordAcrossNode(' ψηλός ', 'F4F6F6');
+	highlightWordAcrossNode(' Θύμα ', 'c394e8');
+	highlightWordAcrossNode(' θύμα ', 'c394e8');
 
-	highlightWordAcrossNode(' Τρένο ', 'F4F6F6');
-	highlightWordAcrossNode(' τρένο ', 'F4F6F6');
+	highlightWordAcrossNode(' Χύμα ', 'fcb279');
+	highlightWordAcrossNode(' χύμα ', 'fcb279');
 
-	highlightWordAcrossNode(' Φρένο ', 'F4F6F6');
-	highlightWordAcrossNode(' φρένο ', 'F4F6F6');
+	highlightWordAcrossNode(' Κλάσμα ', 'e7fca4');
+	highlightWordAcrossNode(' κλάσμα ', 'e7fca4');
 
-	highlightWordAcrossNode(' Σούστα ', 'F4F6F6');
-	highlightWordAcrossNode(' σούστα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πλάσμα ', 'e0c2fc');
+	highlightWordAcrossNode(' πλάσμα ', 'e0c2fc');
 
-	highlightWordAcrossNode(' Φούστα ', 'F4F6F6');
-	highlightWordAcrossNode(' φούστα ', 'F4F6F6');
+	highlightWordAcrossNode(' Θλάση ', 'aaa7ef');
+	highlightWordAcrossNode(' θλάση ', 'aaa7ef');
 
-	highlightWordAcrossNode(' Πλύση ', 'F4F6F6');
-	highlightWordAcrossNode(' πλύση ', 'F4F6F6');
+	highlightWordAcrossNode(' Κλάση ', 'a2f9f2');
+	highlightWordAcrossNode(' κλάση ', 'a2f9f2');
 
-	highlightWordAcrossNode(' Βρύση ', 'F4F6F6');
-	highlightWordAcrossNode(' βρύση ', 'F4F6F6');
+	highlightWordAcrossNode(' Πλάση ', 'c6fcae');
+	highlightWordAcrossNode(' πλάση ', 'c6fcae');
 
-	highlightWordAcrossNode(' Κρίση ', 'F4F6F6');
-	highlightWordAcrossNode(' κρίση ', 'F4F6F6');
+	highlightWordAcrossNode(' Χρίσμα ', '7af4de');
+	highlightWordAcrossNode(' χρίσμα ', '7af4de');
 
-	highlightWordAcrossNode(' Μέρα ', 'F4F6F6');
-	highlightWordAcrossNode(' μέρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πρίσμα ', 'c0cff9');
+	highlightWordAcrossNode(' πρίσμα ', 'c0cff9');
 
-	highlightWordAcrossNode(' Βέρα ', 'F4F6F6');
-	highlightWordAcrossNode(' βέρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μπίρα ', 'eafc9c');
+	highlightWordAcrossNode(' μπίρα ', 'eafc9c');
 
-	highlightWordAcrossNode(' Ξέρα ', 'F4F6F6');
-	highlightWordAcrossNode(' ξέρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πείρα ', 'f4c2a4');
+	highlightWordAcrossNode(' πείρα ', 'f4c2a4');
 
-	highlightWordAcrossNode(' Πέρα ', 'F4F6F6');
-	highlightWordAcrossNode(' πέρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μύλος ', 'fcb279');
+	highlightWordAcrossNode(' μύλος ', 'fcb279');
 
-	highlightWordAcrossNode(' Λέρα ', 'F4F6F6');
-	highlightWordAcrossNode(' λέρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ψύλλος ', 'c6fcae');
+	highlightWordAcrossNode(' ψύλλος ', 'c6fcae');
 
-	highlightWordAcrossNode(' Ρητός ', 'F4F6F6');
-	highlightWordAcrossNode(' ρητός ', 'F4F6F6');
+	highlightWordAcrossNode(' Φίλος ', 'fbb5ff');
+	highlightWordAcrossNode(' φίλος ', 'fbb5ff');
 
-	highlightWordAcrossNode(' Λιτός ', 'F4F6F6');
-	highlightWordAcrossNode(' λιτός ', 'F4F6F6');
+	highlightWordAcrossNode(' Νείλος ', 'b5fafc');
+	highlightWordAcrossNode(' νείλος ', 'b5fafc');
 
-	highlightWordAcrossNode(' Ψητός ', 'F4F6F6');
-	highlightWordAcrossNode(' ψητός ', 'F4F6F6');
+	highlightWordAcrossNode(' Χύτρα ', 'dcc6ff');
+	highlightWordAcrossNode(' χύτρα ', 'dcc6ff');
 
-	highlightWordAcrossNode(' Αυλή ', 'F4F6F6');
-	highlightWordAcrossNode(' αυλή ', 'F4F6F6');
+	highlightWordAcrossNode(' Φύτρα ', '6beaca');
+	highlightWordAcrossNode(' φύτρα ', '6beaca');
 
-	highlightWordAcrossNode(' Αυγή ', 'F4F6F6');
-	highlightWordAcrossNode(' αυγή ', 'F4F6F6');
+	highlightWordAcrossNode(' Μήτρα ', 'aaa7ef');
+	highlightWordAcrossNode(' μήτρα ', 'aaa7ef');
 
-	highlightWordAcrossNode(' Κραυγή ', 'F4F6F6');
-	highlightWordAcrossNode(' κραυγή ', 'F4F6F6');
+	highlightWordAcrossNode(' Λύτρα ', '82ffa5');
+	highlightWordAcrossNode(' λύτρα ', '82ffa5');
 
-	highlightWordAcrossNode(' Στάμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' στάμπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρήτρα ', 'e5a6f4');
+	highlightWordAcrossNode(' ρήτρα ', 'e5a6f4');
 
-	highlightWordAcrossNode(' Λάμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' λάμπα ', 'F4F6F6');
-	
-	highlightWordAcrossNode(' Σάμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' σάμπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρήξη ', '9ffcd0');
+	highlightWordAcrossNode(' ρήξη ', '9ffcd0');
 
-	highlightWordAcrossNode(' Κράμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' κράμπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Σκύλος ', 'f7a788');
+	highlightWordAcrossNode(' σκύλος ', 'f7a788');
 
-	highlightWordAcrossNode(' Ράμπα ', 'F4F6F6');
-	highlightWordAcrossNode(' ράμπα ', 'F4F6F6');
+	highlightWordAcrossNode(' Στύλος ', '6e7fdd');
+	highlightWordAcrossNode(' στύλος ', '6e7fdd');
 
-	highlightWordAcrossNode(' Χάδι ', 'F4F6F6');
-	highlightWordAcrossNode(' χάδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Μορφή ', 'f995c7');
+	highlightWordAcrossNode(' μορφή ', 'f995c7');
 
-	highlightWordAcrossNode(' Λάδι ', 'F4F6F6');
-	highlightWordAcrossNode(' λάδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Κορφή ', 'f4e2a6');
+	highlightWordAcrossNode(' κορφή ', 'f4e2a6');
 
-	highlightWordAcrossNode(' Βράδυ ', 'F4F6F6');
-	highlightWordAcrossNode(' βράδυ ', 'F4F6F6');
+	highlightWordAcrossNode(' Πουγκί ', 'edc682');
+	highlightWordAcrossNode(' πουγκί ', 'edc682');
 
-	highlightWordAcrossNode(' Κάλτσα ', 'F4F6F6');
-	highlightWordAcrossNode(' κάλτσα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μουγκή ', 'a2f9e1');
+	highlightWordAcrossNode(' μουγκή ', 'a2f9e1');
 
-	highlightWordAcrossNode(' Σάλτσα ', 'F4F6F6');
-	highlightWordAcrossNode(' σάλτσα ', 'F4F6F6');
+	highlightWordAcrossNode(' Τοίχος ', 'e5ffb2');
+	highlightWordAcrossNode(' τοίχος ', 'e5ffb2');
 
-	highlightWordAcrossNode(' Θυμός ', 'F4F6F6');
-	highlightWordAcrossNode(' θυμός ', 'F4F6F6');
+	highlightWordAcrossNode(' Ψύχος ', 'f9959a');
+	highlightWordAcrossNode(' ψύχος ', 'f9959a');
 
-	highlightWordAcrossNode(' Ρίζα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρίζα ', 'F4F6F6');
+	highlightWordAcrossNode(' Δίχως ', 'e7f48d');
+	highlightWordAcrossNode(' δίχως ', 'e7f48d');
 
-	highlightWordAcrossNode(' Μπρίζα ', 'F4F6F6');
-	highlightWordAcrossNode(' μπρίζα ', 'F4F6F6');
+	highlightWordAcrossNode(' Χολή ', 'b39eed');
+	highlightWordAcrossNode(' χολή ', 'b39eed');
 
-	highlightWordAcrossNode(' Ρώμη ', 'F4F6F6');
-	highlightWordAcrossNode(' ρώμη ', 'F4F6F6');
+	highlightWordAcrossNode(' Θολή ', 'ddc6ff');
+	highlightWordAcrossNode(' θολή ', 'ddc6ff');
 
-	highlightWordAcrossNode(' Γνώμη ', 'F4F6F6');
-	highlightWordAcrossNode(' γνώμη ', 'F4F6F6');
+	highlightWordAcrossNode(' Βολή ', 'f4e18b');
+	highlightWordAcrossNode(' βολή ', 'f4e18b');
 
-	highlightWordAcrossNode(' Κρίμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κρίμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πολύ ', 'a2f9e1');
+	highlightWordAcrossNode(' πολύ ', 'a2f9e1');
 
-	highlightWordAcrossNode(' Χρήμα ', 'F4F6F6');
-	highlightWordAcrossNode(' χρήμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ήθος ', 'f77181');
+	highlightWordAcrossNode(' ήθος ', 'f77181');
 
-	highlightWordAcrossNode(' Τρίμμα ', 'F4F6F6');
-	highlightWordAcrossNode(' τρίμμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Λίθος ', 'f29a8e');
+	highlightWordAcrossNode(' λίθος ', 'f29a8e');
 
-	highlightWordAcrossNode(' φώτα ', 'F4F6F6');
-	highlightWordAcrossNode(' Φώτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Στήθος ', 'ddc6ff');
+	highlightWordAcrossNode(' στήθος ', 'ddc6ff');
 
-	highlightWordAcrossNode(' Χνώτα ', 'F4F6F6');
-	highlightWordAcrossNode(' χνώτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Παλάτι ', '839def');
+	highlightWordAcrossNode(' παλάτι ', '839def');
 
-	highlightWordAcrossNode(' Κότα ', 'F4F6F6');
-	highlightWordAcrossNode(' κότα ', 'F4F6F6');
+	highlightWordAcrossNode(' Αλάτι ', 'f9f9f9');
+	highlightWordAcrossNode(' αλάτι ', 'f9f9f9');
 
-	highlightWordAcrossNode(' Ρώτα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρώτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ζάχαρη ', 'f9f9f9');
+	highlightWordAcrossNode(' ζάχαρη ', 'f9f9f9');
 
-	highlightWordAcrossNode(' Νότα ', 'F4F6F6');
-	highlightWordAcrossNode(' νότα ', 'F4F6F6');
+	highlightWordAcrossNode(' Άχαρη ', '9bd1e8');
+	highlightWordAcrossNode(' άχαρη ', '9bd1e8');
 
-	highlightWordAcrossNode(' Βατός ', 'F4F6F6');
-	highlightWordAcrossNode(' βατός ', 'F4F6F6');
+	highlightWordAcrossNode(' Φουλάρι ', 'f4e18b');
+	highlightWordAcrossNode(' φουλάρι ', 'f4e18b');
 
-	highlightWordAcrossNode(' Πάτος ', 'F4F6F6');
-	highlightWordAcrossNode(' πάτος ', 'F4F6F6');
+	highlightWordAcrossNode(' Μουλάρι ', 'e5ffb2');
+	highlightWordAcrossNode(' μουλάρι ', 'e5ffb2');
 
-	highlightWordAcrossNode(' Γάτος ', 'F4F6F6');
-	highlightWordAcrossNode(' γάτος ', 'F4F6F6');
+	highlightWordAcrossNode(' Πουλάρι ', 'ddc6ff');
+	highlightWordAcrossNode(' πουλάρι ', 'ddc6ff');
 
-	highlightWordAcrossNode(' Νεύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' νεύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Φέρετρο ', '67a8e5');
+	highlightWordAcrossNode(' φέρετρο ', '67a8e5');
 
-	highlightWordAcrossNode(' Γεύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' γεύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Θέρετρο ', 'b4ffa3');
+	highlightWordAcrossNode(' θέρετρο ', 'b4ffa3');
 
-	highlightWordAcrossNode(' Πνεύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πνεύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Λουκέτα ', 'b8d9fc');
+	highlightWordAcrossNode(' λουκέτα ', 'b8d9fc');
 
-	highlightWordAcrossNode(' Ρεύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρεύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρουκέτα ', 'ea7989');
+	highlightWordAcrossNode(' ρουκέτα ', 'ea7989');
 
-	highlightWordAcrossNode(' Στάλα ', 'F4F6F6');
-	highlightWordAcrossNode(' στάλα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρακέτα ', '8cf2b3');
+	highlightWordAcrossNode(' ρακέτα ', '8cf2b3');
 
-	highlightWordAcrossNode(' Σκάλα ', 'F4F6F6');
-	highlightWordAcrossNode(' σκάλα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πακέτα ', 'ffbe75');
+	highlightWordAcrossNode(' πακέτα ', 'ffbe75');
 
-	highlightWordAcrossNode(' Σπάλα ', 'F4F6F6');
-	highlightWordAcrossNode(' σπάλα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μακέτα ', '9af4d0');
+	highlightWordAcrossNode(' μακέτα ', '9af4d0');
 
-	highlightWordAcrossNode(' Θήρα ', 'F4F6F6');
-	highlightWordAcrossNode(' θήρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ζακέτα ', '67c2e0');
+	highlightWordAcrossNode(' ζακέτα ', '67c2e0');
 
-	highlightWordAcrossNode(' Χήρα ', 'F4F6F6');
-	highlightWordAcrossNode(' χήρα ', 'F4F6F6');
+	highlightWordAcrossNode(' καρούλι ', 'ffafb3');
+	highlightWordAcrossNode(' Καρούλι ', 'ffafb3');
 
-	highlightWordAcrossNode(' Μοίρα ', 'F4F6F6');
-	highlightWordAcrossNode(' μοίρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μαρούλι ', '96ffa9');
+	highlightWordAcrossNode(' μαρούλι ', '96ffa9');
 
-	highlightWordAcrossNode(' Πήρα ', 'F4F6F6');
-	highlightWordAcrossNode(' πήρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Λιβάδι ', '8cf2b3');
+	highlightWordAcrossNode(' λιβάδι ', '8cf2b3');
 
-	highlightWordAcrossNode(' Ψείρα ', 'F4F6F6');
-	highlightWordAcrossNode(' ψείρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Λιβάνι ', 'a9eff2');
+	highlightWordAcrossNode(' λιβάνι ', 'a9eff2');
 
-	highlightWordAcrossNode(' Γράμμα ', 'F4F6F6');
-	highlightWordAcrossNode(' γράμμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Στήνω ', 'fcccc7');
+	highlightWordAcrossNode(' στήνω ', 'fcccc7');
 
-	highlightWordAcrossNode(' Δράμα ', 'F4F6F6');
-	highlightWordAcrossNode(' δράμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Δίνω ', 'b9def7');
+	highlightWordAcrossNode(' δίνω ', 'b9def7');
 
-	highlightWordAcrossNode(' Κράμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κράμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Λύνω ', 'ea7989');
+	highlightWordAcrossNode(' λύνω ', 'ea7989');
 
-	highlightWordAcrossNode(' Πράμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πράμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Πίνω ', 'b9def7');
+	highlightWordAcrossNode(' πίνω ', 'b9def7');
 
-	highlightWordAcrossNode(' Βράκα ', 'F4F6F6');
-	highlightWordAcrossNode(' βράκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Χύνω ', '7fefe2');
+	highlightWordAcrossNode(' χύνω ', '7fefe2');
 
-	highlightWordAcrossNode(' Θράκα ', 'F4F6F6');
-	highlightWordAcrossNode(' θράκα ', 'F4F6F6');
+	highlightWordAcrossNode(' Φτύνω ', 'fcaea9');
+	highlightWordAcrossNode(' φτύνω ', 'fcaea9');
 
-	highlightWordAcrossNode(' Νήμα ', 'F4F6F6');
-	highlightWordAcrossNode(' νήμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Βρέχω ', 'a9eff2');
+	highlightWordAcrossNode(' βρέχω ', 'a9eff2');
 
-	highlightWordAcrossNode(' Βήμα ', 'F4F6F6');
-	highlightWordAcrossNode(' βήμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Τρέχω ', 'ffaac1');
+	highlightWordAcrossNode(' τρέχω ', 'ffaac1');
 
-	highlightWordAcrossNode(' Σήμα ', 'F4F6F6');
-	highlightWordAcrossNode(' σήμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ράβω ', 'ffcf7c');
+	highlightWordAcrossNode(' ράβω ', 'ffcf7c');
 
-	highlightWordAcrossNode(' Κύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Θάβω ', 'fcf4ba');
+	highlightWordAcrossNode(' θάβω ', 'fcf4ba');
 
-	highlightWordAcrossNode(' Ρήμα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρήμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Θωρώ ', 'bfd6fc');
+	highlightWordAcrossNode(' θωρώ ', 'bfd6fc');
 
-	highlightWordAcrossNode(' Θύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' θύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Φορώ ', '8bf99e');
+	highlightWordAcrossNode(' φορώ ', '8bf99e');
 
-	highlightWordAcrossNode(' Χύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' χύμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Παίρνω ', 'f2ef98');
+	highlightWordAcrossNode(' παίρνω ', 'f2ef98');
 
-	highlightWordAcrossNode(' Κλάσμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κλάσμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Γέρνω ', 'fff1cc');
+	highlightWordAcrossNode(' γέρνω ', 'fff1cc');
 
-	highlightWordAcrossNode(' Πλάσμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πλάσμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Σέρνω ', 'f9cbc0');
+	highlightWordAcrossNode(' σέρνω ', 'f9cbc0');
 
-	highlightWordAcrossNode(' Θλάση ', 'F4F6F6');
-	highlightWordAcrossNode(' θλάση ', 'F4F6F6');
+	highlightWordAcrossNode(' Φέρνω ', '97fcb5');
+	highlightWordAcrossNode(' φέρνω ', '97fcb5');
 
-	highlightWordAcrossNode(' Κλάση ', 'F4F6F6');
-	highlightWordAcrossNode(' κλάση ', 'F4F6F6');
+	highlightWordAcrossNode(' Φέρομαι ', '95f4e4');
+	highlightWordAcrossNode(' φέρομαι ', '95f4e4');
 
-	highlightWordAcrossNode(' Πλάση ', 'F4F6F6');
-	highlightWordAcrossNode(' πλάση ', 'F4F6F6');
+	highlightWordAcrossNode(' Χαίρομαι ', 'b2ffe2');
+	highlightWordAcrossNode(' χαίρομαι ', 'b2ffe2');
 
-	highlightWordAcrossNode(' Χρίσμα ', 'F4F6F6');
-	highlightWordAcrossNode(' χρίσμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Δέχομαι ', 'edffb2');
+	highlightWordAcrossNode(' δέχομαι ', 'edffb2');
 
-	highlightWordAcrossNode(' Πρίσμα ', 'F4F6F6');
-	highlightWordAcrossNode(' πρίσμα ', 'F4F6F6');
+	highlightWordAcrossNode(' Θυμάμαι ', 'a8ffd7');
+	highlightWordAcrossNode(' θυμάμαι ', 'a8ffd7');
 
-	highlightWordAcrossNode(' Μπίρα ', 'F4F6F6');
-	highlightWordAcrossNode(' μπίρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κοιμάμαι ', 'ffc9d9');
+	highlightWordAcrossNode(' κοιμάμαι ', 'ffc9d9');
 
-	highlightWordAcrossNode(' Πείρα ', 'F4F6F6');
-	highlightWordAcrossNode(' πείρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Όλη ', '9fd5f9');
+	highlightWordAcrossNode(' όλη ', '9fd5f9');
 
-	highlightWordAcrossNode(' Μύλος ', 'F4F6F6');
-	highlightWordAcrossNode(' μύλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Πόλη ', 'f4a87f');
+	highlightWordAcrossNode(' πόλη ', 'f4a87f');
 
-	highlightWordAcrossNode(' Ψύλλος ', 'F4F6F6');
-	highlightWordAcrossNode(' ψύλλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Μπαλώνω ', 'f7f972');
+	highlightWordAcrossNode(' μπαλώνω ', 'f7f972');
 
-	highlightWordAcrossNode(' Φίλος ', 'F4F6F6');
-	highlightWordAcrossNode(' φίλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Φιλώ ', 'f4b2d7');
+	highlightWordAcrossNode(' φιλώ ', 'f4b2d7');
 
-	highlightWordAcrossNode(' Νείλος ', 'F4F6F6');
-	highlightWordAcrossNode(' νείλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Μιλώ ', '79c9f2');
+	highlightWordAcrossNode(' μιλώ ', '79c9f2');
 
-	highlightWordAcrossNode(' Χύτρα ', 'F4F6F6');
-	highlightWordAcrossNode(' χύτρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κουζίνα ', 'f3ffa5');
+	highlightWordAcrossNode(' κουζίνα ', 'f3ffa5');
 
-	highlightWordAcrossNode(' Φύτρα ', 'F4F6F6');
-	highlightWordAcrossNode(' φύτρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ντουζίνα ', '9fd5f9');
+	highlightWordAcrossNode(' ντουζίνα ', '9fd5f9');
 
-	highlightWordAcrossNode(' Μήτρα ', 'F4F6F6');
-	highlightWordAcrossNode(' μήτρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Νονός ', '79c9f2');
+	highlightWordAcrossNode(' νονός ', '79c9f2');
 
-	highlightWordAcrossNode(' Λύτρα ', 'F4F6F6');
-	highlightWordAcrossNode(' λύτρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Γαύρος ', 'fca4a1');
+	highlightWordAcrossNode(' γαύρος ', 'fca4a1');
 
-	highlightWordAcrossNode(' Ρήτρα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρήτρα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μαύρος ', 'f2f2f2');
+	highlightWordAcrossNode(' μαύρος ', 'f2f2f2');
 
-	highlightWordAcrossNode(' Ρήξη ', 'F4F6F6');
-	highlightWordAcrossNode(' ρήξη ', 'F4F6F6');
+	highlightWordAcrossNode(' Βρέχω ', 'abe4ea');
+	highlightWordAcrossNode(' βρέχω ', 'abe4ea');
 
-	highlightWordAcrossNode(' Σκύλος ', 'F4F6F6');
-	highlightWordAcrossNode(' σκύλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Τρέχω ', 'e8ffb2');
+	highlightWordAcrossNode(' τρέχω ', 'e8ffb2');
 
-	highlightWordAcrossNode(' Στύλος ', 'F4F6F6');
-	highlightWordAcrossNode(' στύλος ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρέμα ', 'f7e079');
+	highlightWordAcrossNode(' ρέμα ', 'f7e079');
 
-	highlightWordAcrossNode(' Μορφή ', 'F4F6F6');
-	highlightWordAcrossNode(' μορφή ', 'F4F6F6');
+	highlightWordAcrossNode(' Ρεύμα ', 'f7f981');
+	highlightWordAcrossNode(' ρεύμα ', 'f7f981');
 
-	highlightWordAcrossNode(' Κορφή ', 'F4F6F6');
-	highlightWordAcrossNode(' κορφή ', 'F4F6F6');
+	highlightWordAcrossNode(' Βαγόνι ', 'efd775');
+	highlightWordAcrossNode(' βαγόνι ', 'efd775');
 
-	highlightWordAcrossNode(' Πουγκί ', 'F4F6F6');
-	highlightWordAcrossNode(' πουγκί ', 'F4F6F6');
+	highlightWordAcrossNode(' Παγόνι ', '83fcd0');
+	highlightWordAcrossNode(' παγόνι ', '83fcd0');
 
-	highlightWordAcrossNode(' Μουγκή ', 'F4F6F6');
-	highlightWordAcrossNode(' μουγκή ', 'F4F6F6');
+	highlightWordAcrossNode(' Θυμάρι ', 'cdffa8');
+	highlightWordAcrossNode(' θυμάρι ', 'cdffa8');
 
-	highlightWordAcrossNode(' Τοίχος ', 'F4F6F6');
-	highlightWordAcrossNode(' τοίχος ', 'F4F6F6');
+	highlightWordAcrossNode(' Ζυμάρι ', 'ffe4aa');
+	highlightWordAcrossNode(' ζυμάρι ', 'ffe4aa');
 
-	highlightWordAcrossNode(' Ψύχος ', 'F4F6F6');
-	highlightWordAcrossNode(' ψύχος ', 'F4F6F6');
+	highlightWordAcrossNode(' Νηστεία ', 'fcbeba');
+	highlightWordAcrossNode(' νηστεία ', 'fcbeba');
 
-	highlightWordAcrossNode(' Δίχως ', 'F4F6F6');
-	highlightWordAcrossNode(' δίχως ', 'F4F6F6');
+	highlightWordAcrossNode(' Μαντίλι ', 'ffc4fd');
+	highlightWordAcrossNode(' μαντίλι ', 'ffc4fd');
 
-	highlightWordAcrossNode(' Χολή ', 'F4F6F6');
-	highlightWordAcrossNode(' χολή ', 'F4F6F6');
+	highlightWordAcrossNode(' Καντήλι ', 'fafcb3');
+	highlightWordAcrossNode(' καντήλι ', 'fafcb3');
 
-	highlightWordAcrossNode(' Θολή ', 'F4F6F6');
-	highlightWordAcrossNode(' θολή ', 'F4F6F6');
+	highlightWordAcrossNode(' Καρύδι ', 'f7e079');
+	highlightWordAcrossNode(' καρύδι ', 'f7e079');
 
-	highlightWordAcrossNode(' Βολή ', 'F4F6F6');
-	highlightWordAcrossNode(' βολή ', 'F4F6F6');
+	highlightWordAcrossNode(' Βαρίδι ', 'f9f9f9');
+	highlightWordAcrossNode(' βαρίδι ', 'f9f9f9');
 
-	highlightWordAcrossNode(' Πολύ ', 'F4F6F6');
-	highlightWordAcrossNode(' πολύ ', 'F4F6F6');
+	highlightWordAcrossNode(' Γίδα ', 'fffdbc');
+	highlightWordAcrossNode(' γίδα ', 'fffdbc');
 
-	highlightWordAcrossNode(' Ήθος ', 'F4F6F6');
-	highlightWordAcrossNode(' ήθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Βίδα ', 'f7f7f7');
+	highlightWordAcrossNode(' βίδα ', 'f7f7f7');
 
-	highlightWordAcrossNode(' Μύθος ', 'F4F6F6');
-	highlightWordAcrossNode(' μύθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Τέρμα ', 'b2ffe2');
+	highlightWordAcrossNode(' τέρμα ', 'b2ffe2');
 
-	highlightWordAcrossNode(' Λίθος ', 'F4F6F6');
-	highlightWordAcrossNode(' λίθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Στρέμμα ', '6df2b4');
+	highlightWordAcrossNode(' στρέμμα ', '6df2b4');
 
-	highlightWordAcrossNode(' Στήθος ', 'F4F6F6');
-	highlightWordAcrossNode(' στήθος ', 'F4F6F6');
+	highlightWordAcrossNode(' Βουλευτής ', '88adf7');
+	highlightWordAcrossNode(' βουλευτής ', '88adf7');
 
-	highlightWordAcrossNode(' Παλάτι ', 'F4F6F6');
-	highlightWordAcrossNode(' παλάτι ', 'F4F6F6');
+	highlightWordAcrossNode(' Δουλευτής ', 'fafcb3');
+	highlightWordAcrossNode(' δουλευτής ', 'fafcb3');
 
-	highlightWordAcrossNode(' Αλάτι ', 'F4F6F6');
-	highlightWordAcrossNode(' αλάτι ', 'F4F6F6');
+	highlightWordAcrossNode(' Παίρνω ', 'f9aeb7');
+	highlightWordAcrossNode(' παίρνω ', 'f9aeb7');
 
-	highlightWordAcrossNode(' Ζάχαρη ', 'F4F6F6');
-	highlightWordAcrossNode(' ζάχαρη ', 'F4F6F6');
+	highlightWordAcrossNode(' Περνώ ', 'edffb2');
+	highlightWordAcrossNode(' περνώ ', 'edffb2');
 
-	highlightWordAcrossNode(' Άχαρη ', 'F4F6F6');
-	highlightWordAcrossNode(' άχαρη ', 'F4F6F6');
+	highlightWordAcrossNode(' Γλάστρα ', 'cdffa8');
+	highlightWordAcrossNode(' γλάστρα ', 'cdffa8');
 
-	highlightWordAcrossNode(' Φουλάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' φουλάρι ', 'F4F6F6');
+	highlightWordAcrossNode(' Κάστρα ', 'fafcb3');
+	highlightWordAcrossNode(' κάστρα ', 'fafcb3');
 
-	highlightWordAcrossNode(' Μουλάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' μουλάρι ', 'F4F6F6');
+	highlightWordAcrossNode(' Γεράκι ', 'ffe4aa');
+	highlightWordAcrossNode(' γεράκι ', 'ffe4aa');
 
-	highlightWordAcrossNode(' Πουλάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' πουλάρι ', 'F4F6F6');
+	highlightWordAcrossNode(' Μεράκι ', 'f7e079');
+	highlightWordAcrossNode(' μεράκι ', 'f7e079');
 
-	highlightWordAcrossNode(' Φέρετρο ', 'F4F6F6');
-	highlightWordAcrossNode(' φέρετρο ', 'F4F6F6');
+	highlightWordAcrossNode(' Βάρος ', '687cd8');
+	highlightWordAcrossNode(' βάρος ', '687cd8');
 
-	highlightWordAcrossNode(' Θέρετρο ', 'F4F6F6');
-	highlightWordAcrossNode(' θέρετρο ', 'F4F6F6');
+	highlightWordAcrossNode(' Φάρος ', 'f7f588');
+	highlightWordAcrossNode(' φάρος ', 'f7f588');
 
-	highlightWordAcrossNode(' Λουκέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' λουκέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Τέρας ', 'a1daea');
+	highlightWordAcrossNode(' τέρας ', 'a1daea');
 
-	highlightWordAcrossNode(' Ρουκέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρουκέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κρέας ', 'f4c57f');
+	highlightWordAcrossNode(' κρέας ', 'f4c57f');
 
-	highlightWordAcrossNode(' Ρακέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρακέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Ίσως ', 'b9fcab');
+	highlightWordAcrossNode(' ίσως ', 'b9fcab');
 
-	highlightWordAcrossNode(' Πακέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' πακέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Μίσος ', 'a4fcea');
+	highlightWordAcrossNode(' μίσος ', 'a4fcea');
 
-	highlightWordAcrossNode(' Μακέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' μακέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' Κάμπος ', 'baf473');
+	highlightWordAcrossNode(' κάμπος ', 'baf473');
 
-	highlightWordAcrossNode(' Ζακέτα ', 'F4F6F6');
-	highlightWordAcrossNode(' ζακέτα ', 'F4F6F6');
+	highlightWordAcrossNode(' κόμπος ', 'efa47f');
+	highlightWordAcrossNode(' κόμπος ', 'efa47f');
 
-	highlightWordAcrossNode(' καρούλι ', 'F4F6F6');
-	highlightWordAcrossNode(' Καρούλι ', 'F4F6F6');
+	highlightWordAcrossNode(' Τρένα ', 'f4c57f');
+	highlightWordAcrossNode(' τρένα ', 'f4c57f');
 
-	highlightWordAcrossNode(' Μαρούλι ', 'F4F6F6');
-	highlightWordAcrossNode(' μαρούλι ', 'F4F6F6');
+	highlightWordAcrossNode(' Φρένα ', 'a4fcea');
+	highlightWordAcrossNode(' φρένα ', 'a4fcea');
 
-	highlightWordAcrossNode(' Λιβάδι ', 'F4F6F6');
-	highlightWordAcrossNode(' λιβάδι ', 'F4F6F6');
+	highlightWordAcrossNode(' Βρέθηκα ', 'ffa0b0');
+	highlightWordAcrossNode(' βρέθηκα ', 'ffa0b0');
 
-	highlightWordAcrossNode(' Λιβάνι ', 'F4F6F6');
-	highlightWordAcrossNode(' λιβάνι ', 'F4F6F6');
+	highlightWordAcrossNode(' Μαθαίνω ', 'f7aae5');
+	highlightWordAcrossNode(' μαθαίνω ', 'f7aae5');
 
-	highlightWordAcrossNode(' Στήνω ', 'F4F6F6');
-	highlightWordAcrossNode(' στήνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Παθαίνω ', 'f9beb8');
+	highlightWordAcrossNode(' παθαίνω ', 'f9beb8');
 
-	highlightWordAcrossNode(' Δίνω ', 'F4F6F6');
-	highlightWordAcrossNode(' δίνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Λουρί ', 'efa47f');
+	highlightWordAcrossNode(' λουρί ', 'efa47f');
 
-	highlightWordAcrossNode(' Λύνω ', 'F4F6F6');
-	highlightWordAcrossNode(' λύνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Φλουρί ', 'f7f588');
+	highlightWordAcrossNode(' φλουρί ', 'f7f588');
 
-	highlightWordAcrossNode(' Πίνω ', 'F4F6F6');
-	highlightWordAcrossNode(' πίνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Μέρος ', 'acf6f9');
+	highlightWordAcrossNode(' μέρος ', 'acf6f9');
 
-	highlightWordAcrossNode(' Χύνω ', 'F4F6F6');
-	highlightWordAcrossNode(' χύνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Γέρος ', 'f9beb8');
+	highlightWordAcrossNode(' γέρος ', 'f9beb8');
 
-	highlightWordAcrossNode(' Φτύνω ', 'F4F6F6');
-	highlightWordAcrossNode(' φτύνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Κύπρος ', 'a4fcea');
+	highlightWordAcrossNode(' κύπρος ', 'a4fcea');
 
-	highlightWordAcrossNode(' Βρέχω ', 'F4F6F6');
-	highlightWordAcrossNode(' βρέχω ', 'F4F6F6');
+	highlightWordAcrossNode(' Κύρος ', 'a4fcea');
+	highlightWordAcrossNode(' κύρος ', 'a4fcea');
 
-	highlightWordAcrossNode(' Τρέχω ', 'F4F6F6');
-	highlightWordAcrossNode(' τρέχω ', 'F4F6F6');
+	highlightWordAcrossNode(' Επιμονή ', 'ffa0b0');
+	highlightWordAcrossNode(' επιμονή ', 'ffa0b0');
 
-	highlightWordAcrossNode(' Ράβω ', 'F4F6F6');
-	highlightWordAcrossNode(' ράβω ', 'F4F6F6');
+	highlightWordAcrossNode(' Υπομονή ', 'c1c6ff');
+	highlightWordAcrossNode(' υπομονή ', 'c1c6ff');
 
-	highlightWordAcrossNode(' Θάβω ', 'F4F6F6');
-	highlightWordAcrossNode(' θάβω ', 'F4F6F6');
+	highlightWordAcrossNode(' Κλάμα ', 'b9fcab');
+	highlightWordAcrossNode(' κλάμα ', 'b9fcab');
 
-	highlightWordAcrossNode(' Θωρώ ', 'F4F6F6');
-	highlightWordAcrossNode(' θωρώ ', 'F4F6F6');
+	highlightWordAcrossNode(' Κλίμα ', 'acf6f9');
+	highlightWordAcrossNode(' κλίμα ', 'acf6f9');
 
-	highlightWordAcrossNode(' Φορώ ', 'F4F6F6');
-	highlightWordAcrossNode(' φορώ ', 'F4F6F6');
+	highlightWordAcrossNode(' Κέντρα ', 'f4aca6');
+	highlightWordAcrossNode(' κέντρα ', 'f4aca6');
 
-	highlightWordAcrossNode(' Παίρνω ', 'F4F6F6');
-	highlightWordAcrossNode(' παίρνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Δεντρά ', 'c7ff84');
+	highlightWordAcrossNode(' δεντρά ', 'c7ff84');
 
-	highlightWordAcrossNode(' Γέρνω ', 'F4F6F6');
-	highlightWordAcrossNode(' γέρνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Ζυγίζω ', '7be1ed');
+	highlightWordAcrossNode(' ζυγίζω ', '7be1ed');
 
-	highlightWordAcrossNode(' Σέρνω ', 'F4F6F6');
-	highlightWordAcrossNode(' σέρνω ', 'F4F6F6');
+	highlightWordAcrossNode(' Λυγίζω ', '969df2');
+	highlightWordAcrossNode(' λυγίζω ', '969df2');
 
-	highlightWordAcrossNode(' Φέρνω ', 'F4F6F6');
-	highlightWordAcrossNode(' φέρνω ', 'F4F6F6');
 
-	highlightWordAcrossNode(' Φέρομαι ', 'F4F6F6');
-	highlightWordAcrossNode(' φέρομαι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Χαίρομαι ', 'F4F6F6');
-	highlightWordAcrossNode(' χαίρομαι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Δέχομαι ', 'F4F6F6');
-	highlightWordAcrossNode(' δέχομαι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Θυμάμαι ', 'F4F6F6');
-	highlightWordAcrossNode(' θυμάμαι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κοιμάμαι ', 'F4F6F6');
-	highlightWordAcrossNode(' κοιμάμαι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Όλη ', 'F4F6F6');
-	highlightWordAcrossNode(' όλη ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Πόλη ', 'F4F6F6');
-	highlightWordAcrossNode(' πόλη ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μπαλώνω ', 'F4F6F6');
-	highlightWordAcrossNode(' μπαλώνω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Φιλώ ', 'F4F6F6');
-	highlightWordAcrossNode(' φιλώ ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μιλώ ', 'F4F6F6');
-	highlightWordAcrossNode(' μιλώ ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κουζίνα ', 'F4F6F6');
-	highlightWordAcrossNode(' κουζίνα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Ντουζίνα ', 'F4F6F6');
-	highlightWordAcrossNode(' ντουζίνα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Νονός ', 'F4F6F6');
-	highlightWordAcrossNode(' νονός ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μονός ', 'F4F6F6');
-	highlightWordAcrossNode(' μονός ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Γαύρος ', 'F4F6F6');
-	highlightWordAcrossNode(' γαύρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μαύρος ', 'F4F6F6');
-	highlightWordAcrossNode(' μαύρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βρέχω ', 'F4F6F6');
-	highlightWordAcrossNode(' βρέχω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Τρέχω ', 'F4F6F6');
-	highlightWordAcrossNode(' τρέχω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Ρέμα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρέμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Ρεύμα ', 'F4F6F6');
-	highlightWordAcrossNode(' ρεύμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βαγόνι ', 'F4F6F6');
-	highlightWordAcrossNode(' βαγόνι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Παγόνι ', 'F4F6F6');
-	highlightWordAcrossNode(' παγόνι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Θυμάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' θυμάρι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Ζυμάρι ', 'F4F6F6');
-	highlightWordAcrossNode(' ζυμάρι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Νηστεία ', 'F4F6F6');
-	highlightWordAcrossNode(' νηστεία ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μαντίλι ', 'F4F6F6');
-	highlightWordAcrossNode(' μαντίλι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Καντήλι ', 'F4F6F6');
-	highlightWordAcrossNode(' καντήλι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Καρύδι ', 'F4F6F6');
-	highlightWordAcrossNode(' καρύδι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βαρίδι ', 'F4F6F6');
-	highlightWordAcrossNode(' βαρίδι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Γίδα ', 'F4F6F6');
-	highlightWordAcrossNode(' γίδα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βίδα ', 'F4F6F6');
-	highlightWordAcrossNode(' βίδα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Τέρμα ', 'F4F6F6');
-	highlightWordAcrossNode(' τέρμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Στρέμμα ', 'F4F6F6');
-	highlightWordAcrossNode(' στρέμμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βουλευτής ', 'F4F6F6');
-	highlightWordAcrossNode(' βουλευτής ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Δουλευτής ', 'F4F6F6');
-	highlightWordAcrossNode(' δουλευτής ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Παίρνω ', 'F4F6F6');
-	highlightWordAcrossNode(' παίρνω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Περνώ ', 'F4F6F6');
-	highlightWordAcrossNode(' περνώ ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Γλάστρα ', 'F4F6F6');
-	highlightWordAcrossNode(' γλάστρα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κάστρα ', 'F4F6F6');
-	highlightWordAcrossNode(' κάστρα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Γεράκι ', 'F4F6F6');
-	highlightWordAcrossNode(' γεράκι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μεράκι ', 'F4F6F6');
-	highlightWordAcrossNode(' μεράκι ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βάρος ', 'F4F6F6');
-	highlightWordAcrossNode(' βάρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Φάρος ', 'F4F6F6');
-	highlightWordAcrossNode(' φάρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Τέρας ', 'F4F6F6');
-	highlightWordAcrossNode(' τέρας ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κρέας ', 'F4F6F6');
-	highlightWordAcrossNode(' κρέας ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Ίσως ', 'F4F6F6');
-	highlightWordAcrossNode(' ίσως ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μίσος ', 'F4F6F6');
-	highlightWordAcrossNode(' μίσος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κάμπος ', 'F4F6F6');
-	highlightWordAcrossNode(' κάμπος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' κόμπος ', 'F4F6F6');
-	highlightWordAcrossNode(' κόμπος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Τρένα ', 'F4F6F6');
-	highlightWordAcrossNode(' τρένα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Φρένα ', 'F4F6F6');
-	highlightWordAcrossNode(' φρένα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Βρέθηκα ', 'F4F6F6');
-	highlightWordAcrossNode(' βρέθηκα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μαθαίνω ', 'F4F6F6');
-	highlightWordAcrossNode(' μαθαίνω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Παθαίνω ', 'F4F6F6');
-	highlightWordAcrossNode(' παθαίνω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Λουρί ', 'F4F6F6');
-	highlightWordAcrossNode(' λουρί ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Φλουρί ', 'F4F6F6');
-	highlightWordAcrossNode(' φλουρί ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Μέρος ', 'F4F6F6');
-	highlightWordAcrossNode(' μέρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Γέρος ', 'F4F6F6');
-	highlightWordAcrossNode(' γέρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Γέρος ', 'F4F6F6');
-	highlightWordAcrossNode(' γέρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κύπρος ', 'F4F6F6');
-	highlightWordAcrossNode(' κύπρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κύρος ', 'F4F6F6');
-	highlightWordAcrossNode(' κύρος ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Επιμονή ', 'F4F6F6');
-	highlightWordAcrossNode(' επιμονή ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Υπομονή ', 'F4F6F6');
-	highlightWordAcrossNode(' υπομονή ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κλάμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κλάμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κλίμα ', 'F4F6F6');
-	highlightWordAcrossNode(' κλίμα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Κέντρα ', 'F4F6F6');
-	highlightWordAcrossNode(' κέντρα ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Δεντρά ', 'F4F6F6');
-	highlightWordAcrossNode(' δεντρά ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Ζυγίζω ', 'F4F6F6');
-	highlightWordAcrossNode(' ζυγίζω ', 'F4F6F6');
-
-	highlightWordAcrossNode(' Λυγίζω ', 'F4F6F6');
-	highlightWordAcrossNode(' λυγίζω ', 'F4F6F6');
-
-	*/
 	
 
 

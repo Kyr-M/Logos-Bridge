@@ -1,7 +1,7 @@
 .flipswitch {
     position:sticky;
     width: 153px;
-    padding-left:29ex;
+    padding-left:27ex;
   }
   .flipswitch input[type=checkbox] {
     display: none;
@@ -33,13 +33,13 @@
   .flipswitch-inner:before {
     content: "ON";
     padding-left: 12px;
-    background-color: #31D3C6;
-    color: #FFFFFF;
+    background-color: #b2e6ff;
+    color: #023047;
   }
   .flipswitch-inner:after {
     content: "OFF";
     padding-right: 12px;
-    background-color: #FB8500;
+    background-color: #f2a043;
     color: #023047;
     text-align: right;
   }

@@ -8,7 +8,7 @@
   margin:2px 2px;
   background:#023047;
   display:table-column;
-  color:#31D3C6;
+  color:#caf0f8;
   text-transform: uppercase;
   font-size: 24px;
   column-gap: 100px;
@@ -22,10 +22,10 @@
  	min-height:100px;
   	max-width:500px;
 	background-color:#023047;
-	color:#31D3C6;
+	color:#caf0f8;
 	font-size:20px;
-	outline:aqua;
-	border:aqua;
+	outline:caf0f8;
+	border:caf0f8;
 	margin:0;
 	padding:1em  0;
 	text-align:center;

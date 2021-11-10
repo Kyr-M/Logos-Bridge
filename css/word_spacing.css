@@ -6,7 +6,7 @@
     align-items: center ;
     justify-content: center ;
     flex-direction: column ;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
 }
 .msg {
     color: #FFF ;
@@ -18,7 +18,8 @@
 
 .box {
     display: block ;
-    background-color: #31D3C6 ;
+    font-weight: bold;
+    background-color: #CAF0F8 ;
     color: #043643 ;
     font-size: 0.8rem ;
     width: 100% ;
@@ -33,12 +34,9 @@ custom-slider {
 }
 custom-slider2 {
     transform: scale(2);
-
-    
 }
 
 custom-slider3 {
     transform: scale(2);
-
 }
 
