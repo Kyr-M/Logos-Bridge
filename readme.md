@@ -57,12 +57,6 @@ cd <your-repo>
 
 ---
 
-## 📄 License
-
-<!-- Add your license here, e.g. MIT -->
-
----
-
 ## 🙏 Acknowledgements
 
 - Embassy of Switzerland in Greece
